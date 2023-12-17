@@ -20,17 +20,17 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./portfolio
+        working-directory: ./src
 
       - name: Build project
         run: npm run build
-        working-directory: ./portfolio
+        working-directory: ./src
         
       - name: Move build to docs
         run: |
           rm -rf ./docs/
           mkdir ./docs
-          mv ./portfolio/dist/* ./docs/
+          mv ./src/dist/* ./docs/
 
       - name: Commit and push
         run: |
@@ -39,4 +39,4 @@ jobs:
           git add -A
           git commit -m "Add dist directory [skip ci]"
           git push
-        working-directory: ./portfolio
+        working-directory: ./src
