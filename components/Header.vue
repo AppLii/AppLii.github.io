@@ -18,10 +18,10 @@ export default {
 
 <script setup>
 const links = ref([
-    { url: "/about-us", text: "私たちについて" },
-    { url: "/about-cafe-app", text: "アプリについて" },
-    { url: "/about-dev", text: "開発環境について" },
-    { url: "/contact", text: "お問い合わせ" },
+    { url: "/pages/about-us", text: "私たちについて" },
+    { url: "/pages/about-cafe-app", text: "アプリについて" },
+    { url: "/pages/about-dev", text: "開発環境について" },
+    { url: "/pages/contact", text: "お問い合わせ" },
 ])
 </script>
 

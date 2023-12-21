@@ -24,11 +24,11 @@ export default {
 
 <script setup>
 const links = ref([
-    { url: "/", text: "MainPage" },
-    { url: "/about-us", text: "AboutUs" },
-    { url: "/about-cafe-app", text: "AboutCafeApp" },
-    { url: "/contact", text: "Contact" },
-    { url: "/about-dev", text: "Development" }
+    { url: "/pages/", text: "MainPage" },
+    { url: "/pages/about-us", text: "AboutUs" },
+    { url: "/pages/about-cafe-app", text: "AboutCafeApp" },
+    { url: "/pages/contact", text: "Contact" },
+    { url: "/pages/about-dev", text: "Development" }
 ])
 </script>
 
