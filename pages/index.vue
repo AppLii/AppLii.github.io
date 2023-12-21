@@ -1,5 +1,5 @@
 <template>
-    <div>nothing here</div>
+    <div>index page</div>
 </template>
 
 <script>
