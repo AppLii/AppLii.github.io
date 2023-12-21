@@ -20,7 +20,7 @@ export default {
 const links = ref([
     { url: "/about-us", text: "私たちについて" },
     { url: "/about-cafe-app", text: "アプリについて" },
-    { url: "/development", text: "開発環境について" },
+    { url: "/about-dev", text: "開発環境について" },
     { url: "/contact", text: "お問い合わせ" },
 ])
 </script>
