@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: "18"
 
+      - name: Install nuxt
+        run: npm install -g nuxt
+
       - name: Install dependencies
         run: npm install
 
