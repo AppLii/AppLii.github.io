@@ -1,6 +1,6 @@
 <template>
-    <p>各種連絡先をご用意しております。お気軽にお問い合わせください。なお、メールアドレスは[アットマーク]を@に置き換えてください。</p>
     <h2>お問い合わせ先</h2>
+    <p>各種連絡先をご用意しております。お気軽にお問い合わせください。なお、メールアドレスは[アットマーク]を@に置き換えてください。</p>
     <table>
         <tr>
             <th>メールアドレス</th>
@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <th>GitHub</th>
-            <td><a target="_blank" href="https://github.com/AppLii">AppLiiく</a></td>
+            <td><a target="_blank" href="https://github.com/AppLii">AppLii</a></td>
         </tr>
         <tr>
             <th>Twitter（現X）</th>
