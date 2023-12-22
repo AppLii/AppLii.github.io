@@ -35,7 +35,6 @@ useHead({
     { property: 'og:type', content: 'website' },
     { property: 'og:description', content: '和歌山大学クリエAppLiiの公開情報' },
     { property: 'og:site_name', content: 'AppLii' },
-    { rel: 'icon', href: 'https://raw.githubusercontent.com/AppLii/pages/release/public/favicon.ico' },
     { name: 'google-site-verification', content: 'your-verification-code' }, // Add your verification code here
   ],
   link: [
