@@ -1,42 +1,23 @@
 <template>
     <div id="footer">
-        <p class="footer_title">
-            {{ appName }}
-        </p>
-        <p class="footer_links">
-            <a class="footer_link" v-for="(link, index) in links" :href="link.url" :key="index">{{ link.text }}</a>
-        </p>
         <p class="footer_copyright">
             Copyright {{ new Date().getFullYear() }} <br />
-            和歌山大学クリエ ITものづくりプロジェクト AppLii
+            和歌山大学 学生自主創造支援部門（クリエ） ITものづくりプロジェクト AppLii
         </p>
+        <p>このサイトの更新状況は、<a href="https://github.com/AppLii/pages" target="_blank">GitHubリポジトリ</a>から確認できます。</p>
     </div>
 </template>
 <script>
 import { ref } from 'vue'
 export default {
     name: 'FooterComponent',
-    props: {
-        appName: String
-    }
 }
 </script>
 
-<script setup>
-const links = ref([
-    { url: "/", text: "MainPage" },
-    { url: "/about-us", text: "AboutUs" },
-    { url: "/about-cafe-app", text: "AboutCafeApp" },
-    { url: "/contact", text: "Contact" },
-    { url: "/about-dev", text: "Development" }
-])
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #footer {
     width: 100%;
-    background-color: gray;
+    background-color: #404040;
     color: white;
 }
 
@@ -46,7 +27,6 @@ p {
 }
 
 #footer a {
-    margin-right: 12px;
     color: white;
 }
 

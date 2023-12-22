@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: process.env.NODE_ENV === "production" ? "/pages/" : "/",
+    baseURL: "/pages/",
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "/pages/favicon.png" }],
+    },
   },
 });

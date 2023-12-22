@@ -1,6 +1,6 @@
 <template>
     <div id="header">
-        <span class="title">和歌山大学クリエAppLii｜</span>
+        <span class="title"><a href="/pages/">AppLii</a></span>
         <span class="links">
             <a v-for="(link, index) in links" :href="link.url" :key="index">{{ link.text }}</a>
         </span>
@@ -18,23 +18,23 @@ export default {
 
 <script setup>
 const links = ref([
-    { url: "/about-us", text: "私たちについて" },
-    { url: "/about-cafe-app", text: "アプリについて" },
-    { url: "/about-dev", text: "開発環境について" },
-    { url: "/contact", text: "お問い合わせ" },
+    { url: "/pages/about-us", text: "私たちについて" },
+    { url: "/pages/about-cafe-app", text: "プロダクト" },
+    { url: "/pages/about-dev", text: "開発環境" },
+    { url: "/pages/contact", text: "お問い合わせ" },
 ])
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-$height: 28px;
+$height: 32px;
 
 .header_height_adjust {
     height: $height;
 }
 
 #header {
-    background-color: #555555;
+    background-color: #404040;
     color: white;
     position: fixed;
     top: 0;
@@ -46,16 +46,15 @@ $height: 28px;
     overflow-y: unset;
     white-space: nowrap;
 
-    div.title {
+    span.title {
+        font-size: 20px;
         padding: 4px;
-        margin: 0 4px;
+        margin: 0 8px;
     }
 
     span.links {
         a {
-            color: white;
-            text-decoration: none;
-            padding: 4px;
+            padding: 4px 8px;
 
             &:hover {
                 background-color: rgba(255, 255, 255, 0.4);
@@ -66,5 +65,10 @@ $height: 28px;
     &::-webkit-scrollbar {
         display: none;
     }
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 </style>

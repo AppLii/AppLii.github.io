@@ -26,7 +26,7 @@ html {
         font-family: 'Noto Sans JP', sans-serif;
 
         .body-designer {
-            max-width: 720px;
+            max-width: 1280px;
             margin: 0 auto;
             padding: 32px 24px;
             background-color: white;
@@ -45,7 +45,8 @@ html {
             h3 {
                 margin: 16px 0 8px 4px;
                 padding: 0 0 0 8px;
-                border-left: 8px solid #e98c00;
+                border-left: 8px solid #ee7a00;
+                border-bottom: 1px solid #ee7a00;
             }
 
 

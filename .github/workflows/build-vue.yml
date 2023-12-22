@@ -6,7 +6,7 @@ on:
       - release
 
 env:
-  NODE_ENV: production
+  ENV_BUILD: production
 
 permissions:
   contents: write
@@ -23,6 +23,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
+
+      - name: Install nuxt
+        run: npm install -g nuxt
 
       - name: Install dependencies
         run: npm install
