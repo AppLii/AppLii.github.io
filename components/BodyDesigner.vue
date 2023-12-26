@@ -11,6 +11,13 @@ export default {
 </script>
 
 <style lang="scss">
+$orange: #ee7b00;
+$orange-pale: #ee7b0030;
+$green: #55b535;
+$blue: #009999;
+$gray: #404040;
+$pale: #f2f2f2;
+
 html {
     margin: 0;
     padding: 0;
@@ -28,39 +35,110 @@ html {
         .body-designer {
             max-width: 1280px;
             margin: 0 auto;
-            padding: 32px 24px;
+            padding: 4px 24px;
             background-color: white;
 
             table {
-                tr {
-                    th {
-                        text-align: left;
+                border-collapse: collapse;
+
+                thead {
+                    tr {
+                        th {
+                            background-color: $gray;
+                            color: white;
+                            padding: 2px 12px;
+                            justify-content: center;
+                        }
                     }
+                }
+
+                tbody {
+                    tr {
+                        border-top: 0.5px solid $gray;
+                        border-bottom: 0.5px solid $gray;
+
+                        th {
+                            background-color: $pale;
+                            padding: 2px 12px;
+                            justify-content: center;
+                        }
+
+                        td {
+                            background-color: white;
+                            padding: 2px 12px;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                &.no-wrap {
+                    max-width: 100%;
+
+                    td,
+                    th {
+                        white-space: nowrap;
+                    }
+                }
+
+                .right {
+                    text-align: right;
+                }
+
+                .center {
+                    text-align: center;
+                }
+
+                .left {
+                    text-align: left;
                 }
             }
 
             // h
             h1,
             h2,
-            h3 {
+            h3,
+            h4,
+            h5,
+            h6 {
                 margin: 16px 0 8px 4px;
                 padding: 0 0 0 8px;
-                border-left: 8px solid #ee7a00;
-                border-bottom: 1px solid #ee7a00;
             }
 
 
             h1 {
                 font-size: 24px;
                 font-weight: 600;
+                color: $orange;
+                border-top: 2px solid $orange;
+                border-bottom: 2px solid $orange;
             }
 
             h2 {
                 font-size: 20px;
                 font-weight: 600;
+                border-left: 4px solid $orange;
+                background-color: $orange-pale;
             }
 
             h3 {
+                font-size: 16px;
+                font-weight: 600;
+                border-left: 4px solid $orange;
+                border-bottom: 1px solid $orange;
+            }
+
+            h4 {
+                font-size: 16px;
+                font-weight: 600;
+                border-left: 4px solid $orange;
+            }
+
+            h5 {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            h6 {
                 font-size: 16px;
                 font-weight: 600;
             }
