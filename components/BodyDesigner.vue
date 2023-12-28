@@ -38,6 +38,7 @@ html {
             padding: 4px 24px;
             background-color: white;
 
+            // table
             table {
                 border-collapse: collapse;
 
@@ -91,6 +92,21 @@ html {
                 .left {
                     text-align: left;
                 }
+            }
+
+            //ul li
+            ul {
+                box-shadow: 0px 0px 3px silver;
+                border: solid 1px whitesmoke;
+                padding: 0.5em 1em 0.5em 2.3em;
+                position: relative;
+                background: #fafafa;
+            }
+
+            ul li {
+                line-height: 1.5;
+                padding: 0.5em 0;
+                
             }
 
             // h
