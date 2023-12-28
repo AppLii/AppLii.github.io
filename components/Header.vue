@@ -114,10 +114,6 @@ $background-color: #404040;
         display: block;
     }
 
-    .hamburger-menu-button {
-        display: none;
-    }
-
     .hamburger-menu-button-mark {
         background-color: $font-color;
         display: block;
@@ -127,7 +123,14 @@ $background-color: #404040;
     }
 }
 
+@media screen and (min-width: $responsive-breakpoint) {
+    .hamburger-menu-button {
+        display: none;
+    }
+}
+
 @media screen and (max-width: $responsive-breakpoint) {
+
     .hamburger-menu-list {
         background-color: $background-color;
         align-items: flex-start;
