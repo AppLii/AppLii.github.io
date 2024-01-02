@@ -1,7 +1,37 @@
 <template>
-    <h1 id="h-5">主な使用言語・開発環境など</h1>
+    <h1 id="h-5">使用言語・開発環境について</h1>
     <p>私たちのチームは、最新の技術と効率的なツールを駆使して、高品質なソフトウェアの開発を目指しています。以下に、私たちの主な技術スタックを紹介します。</p>
 
+    <h2>言語・フレームワークの使用割合</h2>
+    <p>私たちのプロジェクトで利用している言語・フレームワークの割合は以下の通りです。（2023-12-23時点）</p>
+    <p></p>
+
+    <table class="no-wrap">
+        <thead>
+            <tr>
+                <th>言語・フレームワーク</th>
+                <th>全コードの行数</th>
+                <th>コード行数の割合</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="(row, index) in usage" :key="index">
+                <th class="left">{{ row.name }}</th>
+                <td class="right">{{ row.length }} 行</td>
+                <td class="left percentage-bar">
+                    <span class="bar" :style="`width: ${row.percentage};`"></span>
+                    <span> {{ row.percentage }} </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>Vue.jsについて</h4>
+    <p>もっともコード行数の多い「Vue.js」は、Webフロントエンド開発（Webページの見た目を作ること）に用いられるものです。きめ細かいデザインの作成に</p>
+
+    <h4>Pythonについて</h4>
+    <p></p>
+
+    <h2>その他</h2>
     <h3> プログラミング言語 </h3>
     <p><strong>Python：</strong>データ分析、機械学習、バックエンド開発に広く使用されています。</p>
     <p><strong>JavaScript：</strong>フロントエンド開発でのインタラクティブな要素の作成に不可欠です。</p>
@@ -38,3 +68,31 @@ export default {
     name: 'AboutDevelopment',
 }
 </script>
+
+<script setup>
+const usage = ref([
+    { name: "Vue.js（.vue）", length: 2563, percentage: "34.7%" },
+    { name: "Python（.py）", length: 1735, percentage: "23.5%" },
+    { name: "Jupyter Notebook（.ipynb）", length: 724, percentage: "9.8%" },
+    { name: "JavaScript（.js）", length: 590, percentage: "8.0%" },
+    { name: "YAML（.yml）", length: 573, percentage: "7.7%" },
+    { name: "TypeScript（.ts）", length: 257, percentage: "3.4%" },
+    { name: "シェルスクリプト（.sh）", length: 151, percentage: "2.0%" },
+])
+</script>
+
+<style lang="scss" scoped>
+.percentage-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .bar {
+        background-color: #009999;
+        display: inline-block;
+        height: 20px;
+        margin: 0 8px 0 0;
+        padding: 0;
+    }
+}
+</style>
