@@ -14,6 +14,9 @@
         <p>私たちの活動について、以下のページでまとめております。ぜひご覧ください。</p>
         <ul>
             <li><a href="/pages/about-us">AppLiiについて</a></li>
+            <li><a href="/pages/about-cafe-app">私たちが開発しているアプリについて</a></li>
+            <li><a href="/pages/about-dev">私たちの開発環境について</a></li>
+            <li><a href="/pages/contact">連絡先</a></li>
         </ul>
     </div>
 </template>
