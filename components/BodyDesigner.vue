@@ -38,6 +38,10 @@ html {
             padding: 4px 24px;
             background-color: white;
 
+            div.wrap-container {
+                overflow-x: auto;
+            }
+
             // table
             table {
                 border-collapse: collapse;
@@ -106,7 +110,7 @@ html {
             ul li {
                 line-height: 1.5;
                 padding: 0.5em 0;
-                
+
             }
 
             // h
