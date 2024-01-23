@@ -7,4 +7,12 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/png", href: "/pages/favicon.png" }],
     },
   },
+  module: [
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "KQ3ZSCDG3B",
+      },
+    ],
+  ],
 });
