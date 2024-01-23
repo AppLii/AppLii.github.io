@@ -1,16 +1,4 @@
 <template>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQ3ZSCDG3B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-KQ3ZSCDG3B");
-  </script>
-
   <div>
     <HeaderComponent />
     <BodyDesignerComponent>
@@ -47,7 +35,6 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:description", content: "和歌山大学クリエAppLiiの公開情報" },
     { property: "og:site_name", content: "AppLii" },
-    { name: "google-site-verification", content: "your-verification-code" }, // Add your verification code here
   ],
   link: [
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
