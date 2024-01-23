@@ -10,11 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.9.1",
+    "nuxt": "^3.8.2",
     "vue": "^3.4.6",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
     "sass": "^1.69.7"
   }
 }
