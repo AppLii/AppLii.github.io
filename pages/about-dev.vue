@@ -9,25 +9,27 @@
     </p>
     <p>私たちのプロジェクトで利用している言語・フレームワークの割合は以下の通りです。（2023-12-23時点）</p>
 
-    <table class="no-wrap">
-        <thead>
-            <tr>
-                <th>言語・フレームワーク</th>
-                <th>全コードの行数</th>
-                <th>コード行数の割合</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="(row, index) in usage" :key="index">
-                <th class="left">{{ row.name }}</th>
-                <td class="right">{{ row.length }} 行</td>
-                <td class="left percentage-bar">
-                    <span class="bar" :style="`width: ${row.percentage};`"></span>
-                    <span> {{ row.percentage }} </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="wrap-container">
+        <table class="no-wrap">
+            <thead>
+                <tr>
+                    <th>言語・フレームワーク</th>
+                    <th>全コードの行数</th>
+                    <th>コード行数の割合</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(row, index) in usage" :key="index">
+                    <th class="left">{{ row.name }}</th>
+                    <td class="right">{{ row.length }} 行</td>
+                    <td class="left percentage-bar">
+                        <span class="bar" :style="`width: ${row.percentage};`"></span>
+                        <span> {{ row.percentage }} </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div v-for="(row, index) in usage" :key="index">
         <h4>{{ row.name }} {{ row.percentage }}</h4>
@@ -56,11 +58,18 @@
     <p><strong>Discord：</strong>ほぼすべての連絡をDiscordで行っています。</p>
 
     <h3>開発効率化</h3>
-    <p><strong>ChatGPT（GPT-4）：</strong>コードの作成や技術的な選定、不具合の解消などを効率化するために利用しています。ChatGPT Plusを利用する場合、費用は個人負担となります。</p>
-    <p><strong>GitHub
-            Copilot：</strong>コードの作成を効率化するために利用しています。ChatGPTに比べると、短い範囲でのコード作成に役立ちます。GitHubの学生アカウントを取得することで、無料で利用することが出来ます。
+    <p>
+        <strong>ChatGPT（GPT-4）：</strong>
+        コードの作成や技術的な選定、不具合の解消などを効率化するために利用しています。ChatGPT Plusを利用する場合、費用は個人負担となります。
     </p>
-    <p><strong>Codeium：</strong>GitHub Copilotと同様にコードの作成を効率化するために利用しています。こちらは完全に無料であり、実験的に併用しています。</p>
+    <p>
+        <strong>GitHub Copilot：</strong>
+        コードの作成を効率化するために利用しています。ChatGPTに比べると、短い範囲でのコード作成に役立ちます。GitHubの学生アカウントを取得することで、無料で利用することが出来ます。
+    </p>
+    <p>
+        <strong>Codeium：</strong>
+        GitHub Copilotと同様にコードの作成を効率化するために利用しています。こちらは完全に無料であり、実験的に併用しています。
+    </p>
 </template>
 
 <script>
