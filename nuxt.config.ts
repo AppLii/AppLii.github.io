@@ -6,5 +6,4 @@ export default {
       link: [{ rel: "icon", type: "image/png", href: "/pages/favicon.png" }],
     },
   },
-  plugin: ["~/plugins/google-analytics.js"],
 };

@@ -23,6 +23,9 @@ export default {
 </script>
 
 <script setup>
+const GAID = "G-KQ3ZSCDG3B";
+const GAcode = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GAID}');`;
+
 useHead({
   title: "AppLii",
   meta: [
@@ -35,6 +38,10 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:description", content: "和歌山大学クリエAppLiiの公開情報" },
     { property: "og:site_name", content: "AppLii" },
+  ],
+  script: [
+    { src: "https://www.googletagmanager.com/gtag/js?id=" + GAID, async: true },
+    { innerHTML: GAcode, type: "text/javascript", charset: "utf-8" },
   ],
   link: [
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
