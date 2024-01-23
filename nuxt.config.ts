@@ -14,4 +14,8 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  buildModules: ["@nuxtjs/google-ana1lytics"],
+  googleAnalytics: {
+    id: "KQ3ZSCDG3B",
+  },
 });
