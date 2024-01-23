@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
@@ -7,7 +6,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/png", href: "/pages/favicon.png" }],
     },
   },
-  module: [
+  modules: [
     [
       "@nuxtjs/google-analytics",
       {
