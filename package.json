@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
-    "sass": "^1.70.0"
+    "sass": "^1.71.0"
   }
 }
