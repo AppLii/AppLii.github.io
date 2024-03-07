@@ -47,3 +47,14 @@ export default {
     name: 'ContactUs',
 }
 </script>
+
+<script setup>
+useHead({
+    title: 'お問い合わせ｜AppLii',
+    meta: [
+        { name: 'description', content: 'AppLiiのお問い合わせと所在地' },
+        { property: 'og:title', content: 'お問い合わせ｜AppLii' },
+        { property: 'og:description', content: 'AppLiiのお問い合わせと所在地' },
+    ],
+})
+</script>

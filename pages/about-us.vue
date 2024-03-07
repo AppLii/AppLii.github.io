@@ -20,6 +20,17 @@
 
 <script>
 export default {
-    name: "AboutUs",
+    name: "AboutUs"
 }
+</script>
+
+<script setup>
+useHead({
+    title: '私たちについて｜AppLii',
+    meta: [
+        { name: 'description', content: '私たちAppLiiについてご紹介します。' },
+        { property: 'og:title', content: '私たちについて｜AppLii' },
+        { property: 'og:description', content: '私たちAppLiiについてご紹介します。' },
+    ],
+})
 </script>

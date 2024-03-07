@@ -40,7 +40,8 @@
     <h3> クラウド・サービス </h3>
     <p><strong>Microsoft Azure：</strong>クラウドサーバーとして利用しています。たくさんのサービスが提供されていますが、このプロジェクトではApp ServiceやFunctions、Cosmos
         DBなどを用いることが多いです。
-    <p>クラウドサーバーには、Amazon Web Services（AWS）やGoogle Cloud Platform（GCP）などの類似サービスがありますが、大学生協に対応していること・学生特典が充実していることからMicrosoft
+    <p>クラウドサーバーには、Amazon Web Services（AWS）やGoogle Cloud
+        Platform（GCP）などの類似サービスがありますが、大学生協に対応していること・学生特典が充実していることからMicrosoft
         Azureを選定しています。</p>
     </p>
 
@@ -123,6 +124,15 @@ const usage = ref([
         desc: "シェルスクリプトは、サーバーやIoTデバイスを動かすために利用します。たとえば、自動メンテナンスなどの作業では複数の処理を行うため、スクリプトファイルにまとめて記述しています。",
     },
 ])
+
+useHead({
+    title: '開発環境について｜AppLii',
+    meta: [
+        { name: 'description', content: 'AppLiiの開発環境や使用言語についてご紹介します。' },
+        { property: 'og:title', content: '開発環境について｜AppLii' },
+        { property: 'og:description', content: 'AppLiiの開発環境や使用言語についてご紹介します。' },
+    ],
+})
 </script>
 
 <style lang="scss" scoped>

@@ -27,6 +27,17 @@ export default {
 }
 </script>
 
+<script setup>
+useHead({
+    title: 'ホームページ｜AppLii',
+    meta: [
+        { name: 'description', content: 'このホームページでは、和歌山大学クリエAppLiiについてご紹介します。' },
+        { property: 'og:title', content: 'ホームページ｜AppLii' },
+        { property: 'og:description', content: 'このホームページでは、和歌山大学クリエAppLiiについてご紹介します。' },
+    ],
+})
+</script>
+
 <style scoped lang="scss">
 .top-photo {
     img {
