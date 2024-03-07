@@ -64,6 +64,15 @@ const palette = [
     '#404040',
     '#f2f2f2',
 ]
+useHead({
+    title: 'テーマカラー',
+    meta: [
+        { name: 'description', content: '' },
+        { property: 'og:title', content: '' },
+        { property: 'og:description', content: '' },
+    ],
+})
+
 </script>
 
 <style lang="scss" scoped>

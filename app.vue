@@ -27,16 +27,18 @@ const GAID = "G-KQ3ZSCDG3B";
 const GAcode = `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${GAID}');`;
 
 useHead({
-  title: "AppLii",
+  title: "ホームページ｜AppLii", // ここに設定している項目は初期値で、各ページで正しいタイトルを上書き指定する必要があります。
   meta: [
     { charset: "utf-8" },
     { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
     { name: "viewport", content: "width=device-width,initial-scale=1.0" },
-    { name: "description", content: "和歌山大学クリエAppLiiの公開情報" },
+    { name: "description", content: "和歌山大学クリエAppLiiのホームページ" },
     { name: "author", content: "AppLii" },
+    { name: "copyright", content: "Copyright © AppLii All rights reserved." },
+    { name: "robots", content: "index,follow" },
     { property: "og:title", content: "AppLii" },
     { property: "og:type", content: "website" },
-    { property: "og:description", content: "和歌山大学クリエAppLiiの公開情報" },
+    { property: "og:description", content: "和歌山大学クリエAppLiiのホームページ" },
     { property: "og:site_name", content: "AppLii" },
   ],
   script: [

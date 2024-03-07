@@ -54,3 +54,14 @@ export default {
   name: "AboutCafeApp",
 };
 </script>
+
+<script setup>
+useHead({
+  title: '食堂混雑アプリ(仮)について｜AppLii',
+  meta: [
+    { name: 'description', content: '食堂混雑アプリ(仮)についてご紹介します。' },
+    { property: 'og:title', content: '食堂混雑アプリ(仮)｜AppLii' },
+    { property: 'og:description', content: '食堂混雑アプリ(仮)についてご紹介します' },
+  ],
+})
+</script>
