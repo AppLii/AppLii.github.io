@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
-    "sass": "^1.69.7"
+    "sass": "^1.69.7",
+    "vue-meta": "^2.4.0"
   }
 }
