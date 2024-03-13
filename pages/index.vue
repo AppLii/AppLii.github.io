@@ -2,12 +2,14 @@
     <div class="top-photo">
         <img src="/top-photo.jpg" alt="">
     </div>
-    <div>
-        <p class="title">AppLii</p>
-        <p class="description">
-            <span>ITものづくりプロジェクト
-                AppLiiは、和歌山大学学生自主創造支援部門（クリエ）に立ち上げられたプロジェクトです。私たちは、テクノロジーを通じて社会にポジティブな影響を与えることを目指しています。</span>
-        </p>
+    <div class="top-texts">
+        <div class="project-name">AppLii</div>
+        <div class="project-sub-name">ITものづくりプロジェクト AppLii（アプリー）</div>
+        <div class="project-description">
+            <p>「AppLii」は、プログラミングを中心とした活動を行う和歌山大学のクリエです。</p>
+            <p>ソフトウェアの開発から運営までを自主的に行うことで、技術者としてのスキル獲得を目指しています。</p>
+            <p>詳しい情報は、<a href="/pages/about-us">こちら</a>をご覧ください。</p>
+        </div>
     </div>
     <div>
         <h1>初めての方へ</h1>
@@ -45,13 +47,34 @@ useHead({
     }
 }
 
-.title {
-    padding: 0;
-    margin: 0;
-    font-size: 48px;
-}
+div.top-texts {
+    padding: 0 0.5rem 0.5rem 0.5rem;
 
-.description {
-    font-size: 1rem;
+    p {
+        margin: 0;
+    }
+
+    .project-name {
+        font-size: 3rem;
+        text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-color: rgb(0, 153, 153);
+        text-decoration-style: solid;
+        text-decoration-thickness: 0.2rem;
+    }
+
+    .project-sub-name {
+        background-color: #ececec;
+        font-size: 1rem;
+        border-radius: 0.4rem;
+        margin: 0.1rem 0 0.1rem 0;
+        padding: 0.1rem 0 0.1rem 0.6rem;
+        display: inline-block;
+    }
+
+    .project-description {
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
+    }
 }
 </style>
