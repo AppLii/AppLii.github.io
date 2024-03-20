@@ -58,6 +58,7 @@ export default {
   background-color: #404040;
   width: 100%;
   color: white;
+  font-weight: 300;
 
   #footer-container {
     max-width: 1280px;
@@ -97,6 +98,7 @@ export default {
     flex-wrap: wrap;
 
     h1 {
+      font-weight: 400;
       padding: 0 0 0 8px;
       margin: 16px 0 4px 0;
       border-left: 4px solid white;
