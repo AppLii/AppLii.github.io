@@ -49,7 +49,7 @@ useHead({
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },
     {
-      href: "https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Sans+JP:wght@300&display=swap",
+      href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap",
       rel: "stylesheet",
     },
     { href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css", rel: "stylesheet" },
