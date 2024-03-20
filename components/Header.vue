@@ -28,6 +28,7 @@ export default {
 <script setup>
 const links = ref([
     { url: "/pages/about-us", text: "私たちについて" },
+    { url: "/pages/newcomers", text: "新入生歓迎会" },
     { url: "/pages/about-cafe-app", text: "プロダクト" },
     { url: "/pages/about-dev", text: "開発環境" },
     { url: "/pages/contact", text: "お問い合わせ" },
@@ -35,7 +36,7 @@ const links = ref([
 </script>
 
 <style scoped lang="scss">
-$responsive-breakpoint: 600px;
+$responsive-breakpoint: 750px; // ヘッダーのコンテンツを変えたら、この値も再検討すること
 $header-height: 3rem;
 $font-color: white;
 $background-color: #404040;
@@ -70,7 +71,7 @@ $background-color: #404040;
         box-sizing: border-box;
         display: flex;
         margin: 0;
-        padding: 0;
+        padding: 0 16px;
     }
 
     .header-list-item {
