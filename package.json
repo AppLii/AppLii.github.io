@@ -13,10 +13,10 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt": "^3.10.1",
     "vue": "^3.4.18",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.3.0"
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
-    "sass": "^1.70.0"
+    "sass": "^1.71.1"
   }
 }
