@@ -36,7 +36,7 @@ const links = ref([
 </script>
 
 <style scoped lang="scss">
-$responsive-breakpoint: 700px; // ヘッダーのコンテンツを変えたら、この値も再検討すること
+$responsive-breakpoint: 750px; // ヘッダーのコンテンツを変えたら、この値も再検討すること
 $header-height: 3rem;
 $font-color: white;
 $background-color: #404040;
