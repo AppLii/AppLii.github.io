@@ -37,7 +37,8 @@ html {
         padding: 0;
         width: 100%;
 
-        font-family: 'Klee One', cursive;
+        //font-family: 'Klee One', cursive;
+        font-weight: 400;
         font-family: 'Noto Sans JP', sans-serif;
 
         .body-designer {
@@ -71,6 +72,7 @@ html {
                         border-bottom: 0.5px solid $gray;
 
                         th {
+                            font-weight: 400;
                             background-color: $pale;
                             padding: 2px 12px;
                             justify-content: center;
@@ -135,7 +137,7 @@ html {
 
             h1 {
                 font-size: 1.6rem;
-                font-weight: 600;
+                font-weight: 500;
                 padding: 0 0 0 1.1rem;
                 border: 0.2rem solid $main-color;
                 position: relative;
@@ -153,7 +155,7 @@ html {
 
             h2 {
                 font-size: 1.2rem;
-                font-weight: 600;
+                font-weight: 500;
                 border-left: 4px solid $main-color;
                 background-color: $main-color-pale;
             }
