@@ -11,12 +11,19 @@ export default {
 </script>
 
 <style lang="scss">
-$orange: #ee7b00;
-$orange-pale: #ee7b0030;
-$green: #55b535;
-$blue: #009999;
-$gray: #404040;
-$pale: #f2f2f2;
+$orange: rgb(238, 123, 0);
+$orange-pale: rgba(238, 123, 0, 0.188);
+$green: rgb(85, 181, 53);
+$green-pale: rgba(85, 181, 53, 0.188);
+$blue: rgb(0, 153, 153);
+$blue-pale: rgba(0, 153, 153, 0.188);
+$gray: rgb(64, 64, 64);
+$gray-pale: rgba(64, 64, 64, 0.188);
+$pale: rgb(242, 242, 242);
+$pale-pale: rgba(242, 242, 242, 0.188);
+
+$main-color: $blue;
+$main-color-pale: $blue-pale;
 
 html {
     margin: 0;
@@ -25,11 +32,13 @@ html {
     background-color: #e4e4e4;
 
     body {
+        color: #404040;
         margin: 0;
         padding: 0;
         width: 100%;
 
-        font-family: 'Klee One', cursive;
+        //font-family: 'Klee One', cursive;
+        font-weight: 400;
         font-family: 'Noto Sans JP', sans-serif;
 
         .body-designer {
@@ -63,6 +72,7 @@ html {
                         border-bottom: 0.5px solid $gray;
 
                         th {
+                            font-weight: 400;
                             background-color: $pale;
                             padding: 2px 12px;
                             justify-content: center;
@@ -126,40 +136,50 @@ html {
 
 
             h1 {
-                font-size: 24px;
-                font-weight: 600;
-                color: $orange;
-                border-top: 2px solid $orange;
-                border-bottom: 2px solid $orange;
+                font-size: 1.6rem;
+                font-weight: 500;
+                padding: 0 0 0 1.1rem;
+                border: 0.2rem solid $main-color;
+                position: relative;
+            }
+
+            h1::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-width: 1.1rem 1.1rem 0 0;
+                border-style: solid;
+                border-color: $main-color transparent transparent transparent;
             }
 
             h2 {
-                font-size: 20px;
-                font-weight: 600;
-                border-left: 4px solid $orange;
-                background-color: $orange-pale;
+                font-size: 1.2rem;
+                font-weight: 500;
+                border-left: 4px solid $main-color;
+                background-color: $main-color-pale;
             }
 
             h3 {
-                font-size: 16px;
+                font-size: 1.0rem;
                 font-weight: 600;
-                border-left: 4px solid $orange;
-                border-bottom: 1px solid $orange;
+                border-left: 4px solid $main-color;
+                border-bottom: 1px solid $main-color;
             }
 
             h4 {
-                font-size: 16px;
+                font-size: 1.0rem;
                 font-weight: 600;
-                border-left: 4px solid $orange;
+                border-left: 4px solid $main-color;
             }
 
             h5 {
-                font-size: 16px;
+                font-size: 1.0rem;
                 font-weight: 600;
             }
 
             h6 {
-                font-size: 16px;
+                font-size: 1.0rem;
                 font-weight: 600;
             }
         }

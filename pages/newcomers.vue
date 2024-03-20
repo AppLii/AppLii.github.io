@@ -1,11 +1,18 @@
 <template>
-    <h1>新入生歓迎会について</h1>
-    <p>このページは現在準備中です！</p>
+    <SideBarComponent>
+        <h1>新入生歓迎会について</h1>
+        <p>このページは現在準備中です！</p>
+    </SideBarComponent>
 </template>
 
 <script>
+import SideBarComponent from '~/components/SideBarComponent.vue';
+
 export default {
     name: 'NewcomersPage',
+    components: {
+        SideBarComponent
+    },
 }
 </script>
 
