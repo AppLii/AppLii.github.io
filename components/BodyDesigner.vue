@@ -2,6 +2,13 @@
     <div class="body-designer">
         <slot></slot>
     </div>
+    <div class="information-icon">
+        <div class="icon-body">
+            <a href="https://discord.gg/GJUUr8cr8e" target="_blank">
+                <span style="font-size: 1.2rem;">新歓Discordサーバーは</span>
+                <span style="font-size: 1.5rem;">こちらから！</span></a>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -182,6 +189,39 @@ html {
                 font-size: 1.0rem;
                 font-weight: 600;
             }
+        }
+    }
+}
+
+.information-icon {
+    .icon-body {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 0.5rem 1.5rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        font-weight: 550;
+        background-image: linear-gradient(160deg, rgb(230, 110, 0), rgb(230, 230, 40));
+        box-shadow: 0.4rem 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        transition: 0.3s;
+
+        span {
+            color: white;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-decoration: none;
+        }
+
+        &:hover {
+            opacity: 0.8;
         }
     }
 }

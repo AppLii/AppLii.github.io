@@ -1,75 +1,39 @@
-# Nuxt 3 Minimal Starter
+# pages
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 概要
 
-## Setup
+AppLii のホームページを GitHub Pages で公開するためのリポジトリです。Vue.js(Nuxt.js)と GitHub Pages を使用しています。
 
-Make sure to install the dependencies:
+URL：https://applii.github.io/pages/
 
-```bash
-# npm
-npm install
+## 環境構築の方法
 
-# pnpm
-pnpm install
+1. Node.js のインストールが必要です。（バージョンは v18 以上推奨）
+2. プロジェクトのルートディレクトリにおいて`npm install`を実行することで、必要なライブラリがインストールされます。
 
-# yarn
-yarn install
+## ローカルでの開発方法（ホットリロードの使い方）
 
-# bun
-bun install
-```
+1. 必ず`Main`ブランチで作業してください。
+2. `npm run dev`を実行するとホットリロード（コードの変更を直ちに反映できる機能）を使いながら開発を行えます。
 
-## Development Server
+### ページの追加方法
 
-Start the development server on `http://localhost:3000`:
+`/pages`ディレクトリに新しいVueファイルを作成すると、新しいページを追加できます。``
 
-```bash
-# npm
-npm run dev
+### ページデザインの変更方法
 
-# pnpm
-pnpm run dev
+## デプロイの方法
 
-# yarn
-yarn dev
+1. 作成したコードは、必ず`Main`ブランチにコミット・プッシュしてください。
+2. 変更を公開するには、`Main`ブランチから`Release`ブランチに対してプルリクエストを行ってください。
+3. 自動的にビルド・デプロイが行われます。1 分程度かかります。
 
-# bun
-bun run dev
-```
+## その他
 
-## Production
+### ブランチについて
 
-Build the application for production:
+`Main`ブランチと`Release`ブランチが存在します。
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- `Main`ブランチ：開発用のため、自由に使っても大丈夫です。
+- `Release`ブランチ：GitHub Pages で公開するページのソースがこのブランチに保存されます。
+- （細かく言うと、`Main`ブランチから`Release`ブランチにマージすると GitHub Action によって自動的にビルドされ、`Release`ブランチの`/docs`ディレクトリにソースファイルが作成される。このソースファイルが Pages で公開される。）
