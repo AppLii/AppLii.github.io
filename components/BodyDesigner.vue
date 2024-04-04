@@ -75,19 +75,20 @@ html {
 
                 tbody {
                     tr {
-                        border-top: 0.5px solid $gray;
-                        border-bottom: 0.5px solid $gray;
+                        border-top: 0.5px solid rgb(200, 200, 200);
+                        border-bottom: 0.5px solid rgb(200, 200, 200);
 
                         th {
                             font-weight: 400;
                             background-color: $pale;
-                            padding: 2px 12px;
+                            padding: 0.6rem 0.5rem;
                             justify-content: center;
+                            white-space: nowrap;
                         }
 
                         td {
                             background-color: white;
-                            padding: 2px 12px;
+                            padding: 0.6rem 0.5rem;
                             justify-content: center;
                         }
                     }
@@ -188,6 +189,32 @@ html {
             h6 {
                 font-size: 1.0rem;
                 font-weight: 600;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .body-designer {
+        table.responsive-enabled {
+            // スマホなど横幅が狭い端末において、テーブルの表示方法を変える
+            width: 100%;
+
+            th {
+                display: block;
+                text-align: left;
+                background-color: white;
+                font-weight: 500;
+                font-size: 1.1rem;
+                padding: 0.3rem 0 0.3rem 0.2rem;
+                margin: 0 0 0 0;
+            }
+
+            td {
+                display: block;
+                text-align: left;
+                padding: 0.3rem 0 0.3rem 0.5rem;
+                margin: 0 0 0.8rem 0;
             }
         }
     }
