@@ -41,14 +41,72 @@
             <p>私たちの特徴</p>
             <h1>ニュース</h1>
         -->
-            <h1>初めての方へ</h1>
-        <p>私たちの活動について、以下のページでまとめております。ぜひご覧ください。</p>
-        <ul>
-            <li><a href="/pages/about-us">AppLiiについて</a></li>
-            <li><a href="/pages/about-cafe-app">私たちが開発しているアプリについて</a></li>
-            <li><a href="/pages/about-dev">私たちの開発環境について</a></li>
-            <li><a href="/pages/contact">連絡先</a></li>
-        </ul>
+        <div class="box-a-container">
+            <a class="box-a" href="/pages/about-us">新歓について</a>
+            <a class="box-a" href="/pages/about-us">AppLiiについて</a>
+            <a class="box-a" href="/pages/contact">お問い合わせ</a>
+        </div>
+
+        <h2>ニュース</h2>
+        <table class="responsive-enabled news-table">
+            <tbody>
+                <tr>
+                    <th>2024年4月1日</th>
+                    <td>
+                        <a href="/pages/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
+                    </td>
+                </tr>
+                <tr>
+                    <th>2024年3月4日</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2024020600055/">2023年度クリエプロジェクト・ミッション成果報告会</a>
+                        において
+                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        に関する発表を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2024年1月15日</th>
+                    <td>学生会館内にBluetooth受信機器を設置し、混雑状況の分析に関する実験を始めました。</td>
+                </tr>
+                <tr>
+                    <th>2023年12月17日</th>
+                    <td>
+                        <a target="_blank" href="https://www.wakayama-u.ac.jp/crea/news/2023121100037/">2023年度学生自主プロジェクト
+                            合同発表会</a>
+                        において
+                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        に関する発表を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2023年12月13日</th>
+                    <td>AppLiiのホームページを作成しました。</td>
+                </tr>
+                <tr>
+                    <th>2023年7月11日</th>
+                    <td>
+                        「大学混雑度提供アプリ」
+                        の開発が2023年度クリエプロジェクト・ミッションに採択されました！
+                    </td>
+                </tr>
+                <tr>
+                    <th>2023年6月19日</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2023060900026/">2023年度クリエプロジェクト・ミッション審査会</a>
+                        において
+                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        に関する発表を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2023年6月5日</th>
+                    <td>「ITものづくりプロジェクト AppLii」が立ち上げられました。</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </template>
 
@@ -186,6 +244,64 @@ div.top-texts {
     .project-description {
         padding-top: 0.5rem;
         font-size: 1.2rem;
+    }
+}
+
+.news-table {
+    display: block;
+    width: 100%;
+    max-height: 70vh;
+    overflow-y: auto;
+
+    a {
+        color: #404040;
+    }
+}
+
+.box-a-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+
+    .box-a {
+        display: block;
+        text-decoration: none;
+        border: 0.15rem solid #404040;
+        color: #404040;
+        border-radius: 0.25rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        width: 20rem;
+        text-align: center;
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+
+    .box-a:hover {
+        animation: hover-box-a 0.1s ease-in-out forwards;
+
+        @keyframes hover-box-a {
+            0% {
+                background-color: white;
+                color: #404040;
+            }
+
+            100% {
+                color: white;
+                background-color: #404040;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .box-a-container {
+        flex-wrap: wrap;
+
+        .box-a {
+            width: 100%;
+        }
     }
 }
 </style>
