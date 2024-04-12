@@ -51,13 +51,13 @@
         <table class="responsive-enabled news-table">
             <tbody>
                 <tr>
-                    <th>2024年4月1日</th>
+                    <th>2024-04-01</th>
                     <td>
                         <a href="/pages/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
                     </td>
                 </tr>
                 <tr>
-                    <th>2024年3月4日</th>
+                    <th>2024-03-04</th>
                     <td>
                         <a target="_blank"
                             href="https://www.wakayama-u.ac.jp/crea/news/2024020600055/">2023年度クリエプロジェクト・ミッション成果報告会</a>
@@ -67,11 +67,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>2024年1月15日</th>
+                    <th>2024-01-15</th>
                     <td>学生会館内にBluetooth受信機器を設置し、混雑状況の分析に関する実験を始めました。</td>
                 </tr>
                 <tr>
-                    <th>2023年12月17日</th>
+                    <th>2023-12-17</th>
                     <td>
                         <a target="_blank" href="https://www.wakayama-u.ac.jp/crea/news/2023121100037/">2023年度学生自主プロジェクト
                             合同発表会</a>
@@ -81,18 +81,18 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>2023年12月13日</th>
+                    <th>2023-12-13</th>
                     <td>AppLiiのホームページを作成しました。</td>
                 </tr>
                 <tr>
-                    <th>2023年7月11日</th>
+                    <th>2023-07-11</th>
                     <td>
                         「大学混雑度提供アプリ」
                         の開発が2023年度クリエプロジェクト・ミッションに採択されました！
                     </td>
                 </tr>
                 <tr>
-                    <th>2023年6月19日</th>
+                    <th>2023-06-19</th>
                     <td>
                         <a target="_blank"
                             href="https://www.wakayama-u.ac.jp/crea/news/2023060900026/">2023年度クリエプロジェクト・ミッション審査会</a>
@@ -102,7 +102,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>2023年6月5日</th>
+                    <th>2023-06-05</th>
                     <td>「ITものづくりプロジェクト AppLii」が立ち上げられました。</td>
                 </tr>
             </tbody>
