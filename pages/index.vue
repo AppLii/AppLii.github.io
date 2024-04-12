@@ -42,8 +42,8 @@
             <h1>ニュース</h1>
         -->
         <div class="box-a-container">
-            <a class="box-a" href="/pages/about-us">新歓について</a>
-            <a class="box-a" href="/pages/about-us">AppLiiについて</a>
+            <a class="box-a" href="/pages/newcomers">新歓について知る</a>
+            <a class="box-a" href="/pages/about-us">AppLiiについて知る</a>
             <a class="box-a" href="/pages/contact">お問い合わせ</a>
         </div>
 
