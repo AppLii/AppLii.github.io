@@ -36,6 +36,8 @@ useHead({
     { name: "author", content: "AppLii" },
     { name: "copyright", content: "Copyright © AppLii All rights reserved." },
     { name: "robots", content: "index,follow" },
+
+    // 標準のOGP設定
     { property: "og:title", content: "ホームページ｜AppLii" },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://applii.github.io/pages/" },
@@ -43,6 +45,8 @@ useHead({
     { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。活動状況やプロダクトに関する情報を公開しています。" },
     { property: "og:site_name", content: "ホームページ｜AppLii" },
     { property: "og:locale", content: "ja_JP" },
+
+    // Twitterカード設定
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:site", content: "@applii_crea" },
     { name: "twitter:title", content: "ホームページ｜AppLii" },
