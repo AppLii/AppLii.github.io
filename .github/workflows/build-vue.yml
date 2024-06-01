@@ -42,6 +42,8 @@ jobs:
           mv ./dist/* ./docs/
           cp -f ./seo-settings/sitemap.xml ./docs/sitemap.xml
           cp -f ./seo-settings/robots.txt ./docs/robots.txt
+          cp -f ./seo-settings/CNAME ./docs/CNAME
+          cp -f ./seo-settings/applii_ogp.png ./docs/applii_ogp.png
 
       # アンダースコアから始まるディレクトリが無視される不具合によってアイコンが404NotFoundになる
       # その不具合を避けるために、`.nojekyll`を追加する
