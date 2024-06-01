@@ -14,16 +14,16 @@
           <h1>コンテンツ</h1>
           <ul>
             <li><a href="/pages/">トップページ</a></li>
-            <li><a href="/pages/about-us">私たちについて</a></li>
+            <li><a href="/pages/about-us">AppLiiとは？</a></li>
             <li><a href="/pages/about-dev">開発環境について</a></li>
+            <li><a href="/pages/newcomers">加入方法について</a></li>
             <li><a href="/pages/contact">お問い合わせ</a></li>
-            <li><a href="/pages/newcomers">新入生歓迎会について</a></li>
           </ul>
         </div>
         <div>
           <h1>プロダクト・制作物</h1>
           <ul>
-            <li><a href="/pages/about-cafe-app">食堂混雑度アプリ(準備中)</a></li>
+            <li><a href="/pages/about-cafe-app">どうこむ｜和大の食堂混雑度アプリ</a></li>
           </ul>
         </div>
         <div>
