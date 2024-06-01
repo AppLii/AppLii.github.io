@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/pages/__sitemap__/style.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
 <!--
     ローカル環境で`npm run generate`を実行すると、Nuxt.jsが自動的にサイトマップを生成する。
     しかし、形式が合わない（ベースURLが含まれていない）ため、手動で修正する必要がある。
@@ -12,35 +12,35 @@
                         http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://applii-wu.net/pages</loc>
+        <loc>https://applii-wu.net</loc>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/about-cafe-app</loc>
+        <loc>https://applii-wu.net/about-cafe-app</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/about-dev</loc>
+        <loc>https://applii-wu.net/about-dev</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/about-us</loc>
+        <loc>https://applii-wu.net/about-us</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/contact</loc>
+        <loc>https://applii-wu.net/contact</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/newcomers</loc>
+        <loc>https://applii-wu.net/newcomers</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/template-page</loc>
+        <loc>https://applii-wu.net/template-page</loc>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>https://applii-wu.net/pages/theme-color</loc>
+        <loc>https://applii-wu.net/theme-color</loc>
         <priority>0.1</priority>
     </url>
 </urlset>
