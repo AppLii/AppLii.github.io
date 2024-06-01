@@ -32,7 +32,7 @@ useHead({
     { charset: "utf-8" },
     { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
     { name: "viewport", content: "width=device-width,initial-scale=1.0" },
-    { name: "description", content: "和歌山大学クリエAppLiiのホームページ" },
+    { name: "description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { name: "author", content: "AppLii" },
     { name: "copyright", content: "Copyright © AppLii All rights reserved." },
     { name: "robots", content: "index,follow" },
@@ -42,7 +42,7 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://applii.github.io/pages/" },
     { property: "og:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/main/applii_ogp.png" },
-    { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。活動状況やプロダクトに関する情報を公開しています。" },
+    { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { property: "og:site_name", content: "ホームページ｜AppLii" },
     { property: "og:locale", content: "ja_JP" },
 
@@ -50,7 +50,7 @@ useHead({
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:site", content: "@applii_crea" },
     { name: "twitter:title", content: "ホームページ｜AppLii" },
-    { name: "twitter:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。活動状況やプロダクトに関する情報を公開しています。" },
+    { name: "twitter:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { name: "twitter:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/main/applii_ogp.png" },
   ],
   script: [

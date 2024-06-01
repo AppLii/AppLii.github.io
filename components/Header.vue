@@ -27,8 +27,8 @@ export default {
 
 <script setup>
 const links = ref([
-    { url: "/pages/about-us", text: "私たちについて" },
-    { url: "/pages/newcomers", text: "新入生歓迎会" },
+    { url: "/pages/about-us", text: "AppLiiとは？" },
+    { url: "/pages/newcomers", text: "加入方法" },
     { url: "/pages/about-cafe-app", text: "プロダクト" },
     { url: "/pages/about-dev", text: "開発環境" },
     { url: "/pages/contact", text: "お問い合わせ" },
