@@ -13,17 +13,17 @@
         <div>
           <h1>コンテンツ</h1>
           <ul>
-            <li><a href="/pages/">トップページ</a></li>
-            <li><a href="/pages/about-us">AppLiiとは？</a></li>
-            <li><a href="/pages/about-dev">開発環境について</a></li>
-            <li><a href="/pages/newcomers">加入方法について</a></li>
-            <li><a href="/pages/contact">お問い合わせ</a></li>
+            <li><a href="/">トップページ</a></li>
+            <li><a href="/about-us">AppLiiとは？</a></li>
+            <li><a href="/about-dev">開発環境について</a></li>
+            <li><a href="/newcomers">加入方法について</a></li>
+            <li><a href="/contact">お問い合わせ</a></li>
           </ul>
         </div>
         <div>
           <h1>プロダクト・制作物</h1>
           <ul>
-            <li><a href="/pages/about-cafe-app">どうこむ｜和大の食堂混雑度アプリ</a></li>
+            <li><a href="/about-cafe-app">どうこむ｜和大の食堂混雑度アプリ</a></li>
           </ul>
         </div>
         <div>
@@ -38,7 +38,8 @@
       </div>
 
       <div class="footer-copyright">
-        <p> このサイトの更新状況は、<a href="https://github.com/AppLii/pages/tree/release" target="_blank">GitHubリポジトリ</a>から確認できます。
+        <p> このサイトの更新状況は、<a href="https://github.com/AppLii/AppLii.github.io/tree/release"
+            target="_blank">GitHubリポジトリ</a>から確認できます。
         </p>
         <p> Copyright ©{{ new Date().getFullYear() }} AppLii, Wakayama Univ. All Rights Reserved.</p>
       </div>

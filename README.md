@@ -4,7 +4,7 @@
 
 AppLii のホームページを GitHub Pages で公開するためのリポジトリです。Vue.js(Nuxt.js)と GitHub Pages を使用しています。
 
-URL：https://applii.github.io/pages/
+URL：<https://applii.github.io/>
 
 ## 環境構築の方法
 
@@ -18,7 +18,7 @@ URL：https://applii.github.io/pages/
 
 ### ページの追加方法
 
-`/pages`ディレクトリに新しいVueファイルを作成すると、新しいページを追加できます。``
+`/pages`ディレクトリに新しい Vue ファイルを作成すると、新しいページを追加できます。
 
 ### ページデザインの変更方法
 

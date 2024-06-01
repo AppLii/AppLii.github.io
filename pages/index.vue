@@ -42,9 +42,9 @@
             <h1>ニュース</h1>
         -->
         <div class="box-a-container">
-            <a class="box-a" href="/pages/newcomers">新歓について知る</a>
-            <a class="box-a" href="/pages/about-us">AppLiiについて知る</a>
-            <a class="box-a" href="/pages/contact">お問い合わせ</a>
+            <a class="box-a" href="/newcomers">新歓について知る</a>
+            <a class="box-a" href="/about-us">AppLiiについて知る</a>
+            <a class="box-a" href="/contact">お問い合わせ</a>
         </div>
 
         <h2>ニュース</h2>
@@ -53,7 +53,7 @@
                 <tr>
                     <th>2024-04-01</th>
                     <td>
-                        <a href="/pages/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
+                        <a href="/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
                     </td>
                 </tr>
                 <tr>
@@ -62,7 +62,7 @@
                         <a target="_blank"
                             href="https://www.wakayama-u.ac.jp/crea/news/2024020600055/">2023年度クリエプロジェクト・ミッション成果報告会</a>
                         において
-                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        <a target="_blank" href="/about-cafe-app">「大学混雑度提供アプリ」</a>
                         に関する発表を行いました。
                     </td>
                 </tr>
@@ -76,7 +76,7 @@
                         <a target="_blank" href="https://www.wakayama-u.ac.jp/crea/news/2023121100037/">2023年度学生自主プロジェクト
                             合同発表会</a>
                         において
-                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        <a target="_blank" href="/about-cafe-app">「大学混雑度提供アプリ」</a>
                         に関する発表を行いました。
                     </td>
                 </tr>
@@ -97,7 +97,7 @@
                         <a target="_blank"
                             href="https://www.wakayama-u.ac.jp/crea/news/2023060900026/">2023年度クリエプロジェクト・ミッション審査会</a>
                         において
-                        <a target="_blank" href="/pages/about-cafe-app">「大学混雑度提供アプリ」</a>
+                        <a target="_blank" href="/about-cafe-app">「大学混雑度提供アプリ」</a>
                         に関する発表を行いました。
                     </td>
                 </tr>

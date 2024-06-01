@@ -40,8 +40,8 @@ jobs:
           rm -rf ./docs/
           mkdir ./docs
           mv ./dist/* ./docs/
-          mv -f ./seo-settings/sitemap.xml ./docs/sitemap.xml
-          mv -f ./seo-settings/robots.txt ./docs/robots.txt
+          cp -f ./seo-settings/sitemap.xml ./docs/sitemap.xml
+          cp -f ./seo-settings/robots.txt ./docs/robots.txt
 
       # アンダースコアから始まるディレクトリが無視される不具合によってアイコンが404NotFoundになる
       # その不具合を避けるために、`.nojekyll`を追加する

@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                     <th>連絡先</th>
-                    <td><a href="/pages/contact">こちら</a>のページに連絡先や各種SNS、お問い合わせフォームなどを用意しております。</td>
+                    <td><a href="/contact">こちら</a>のページに連絡先や各種SNS、お問い合わせフォームなどを用意しております。</td>
                 </tr>
             </tbody>
         </table>
