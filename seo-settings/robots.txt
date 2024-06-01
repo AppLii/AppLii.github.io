@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /pages/404
-Disallow: /pages/theme-color
-Disallow: /pages/template-page
-
-Sitemap: https://applii-wu.net/pages/sitemap.xml
