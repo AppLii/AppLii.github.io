@@ -80,14 +80,12 @@ html {
 
                         th {
                             font-weight: 400;
-                            background-color: $pale;
                             padding: 0.6rem 0.5rem;
                             justify-content: center;
                             white-space: nowrap;
                         }
 
                         td {
-                            background-color: white;
                             padding: 0.6rem 0.5rem;
                             justify-content: center;
                         }
@@ -203,7 +201,6 @@ html {
             th {
                 display: block;
                 text-align: left;
-                background-color: white;
                 font-weight: 500;
                 font-size: 1.1rem;
                 padding: 0.3rem 0 0.3rem 0.2rem;
@@ -215,6 +212,20 @@ html {
                 text-align: left;
                 padding: 0.3rem 0 0.3rem 0.5rem;
                 margin: 0 0 0.8rem 0;
+            }
+
+            tr:nth-of-type(even) {
+                background-color: $pale;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 501px) {
+    .body-designer {
+        table.responsive-enabled {
+            th {
+                background-color: $pale;
             }
         }
     }
