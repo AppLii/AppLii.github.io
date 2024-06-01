@@ -1,6 +1,6 @@
 <template>
     <header class="header hamburger-menu">
-        <a href="/pages/" class="header-logo">AppLii</a>
+        <a href="/" class="header-logo">AppLii</a>
         <input type="checkbox" name="hamburger" id="hamburger" class="hamburger-menu-input" />
         <label for="hamburger" class="hamburger-menu-bg"></label>
         <ul class="header-list hamburger-menu-list">
@@ -27,11 +27,11 @@ export default {
 
 <script setup>
 const links = ref([
-    { url: "/pages/about-us", text: "AppLiiとは？" },
-    { url: "/pages/newcomers", text: "加入方法" },
-    { url: "/pages/about-cafe-app", text: "プロダクト" },
-    { url: "/pages/about-dev", text: "開発環境" },
-    { url: "/pages/contact", text: "お問い合わせ" },
+    { url: "/about-us", text: "AppLiiとは？" },
+    { url: "/newcomers", text: "加入方法" },
+    { url: "/about-cafe-app", text: "プロダクト" },
+    { url: "/about-dev", text: "開発環境" },
+    { url: "/contact", text: "お問い合わせ" },
 ])
 </script>
 

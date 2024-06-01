@@ -40,7 +40,7 @@ useHead({
     // 標準のOGP設定
     { property: "og:title", content: "ホームページ｜AppLii" },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://applii.github.io/pages/" },
+    { property: "og:url", content: "https://applii-wu.net/" },
     { property: "og:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/main/applii_ogp.png" },
     { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { property: "og:site_name", content: "ホームページ｜AppLii" },
