@@ -41,7 +41,7 @@ useHead({
     { property: "og:title", content: "ホームページ｜AppLii" },
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://applii-wu.net/" },
-    { property: "og:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/main/applii_ogp.png" },
+    { property: "og:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/release/docs/applii_ogp.png" },
     { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { property: "og:site_name", content: "ホームページ｜AppLii" },
     { property: "og:locale", content: "ja_JP" },
@@ -51,7 +51,7 @@ useHead({
     { name: "twitter:site", content: "@applii_crea" },
     { name: "twitter:title", content: "ホームページ｜AppLii" },
     { name: "twitter:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
-    { name: "twitter:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/main/applii_ogp.png" },
+    { name: "twitter:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/release/docs/applii_ogp.png" },
   ],
   script: [
     { src: "https://www.googletagmanager.com/gtag/js?id=" + GAID, async: true },
