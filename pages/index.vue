@@ -51,6 +51,15 @@
         <table class="responsive-enabled news-table">
             <tbody>
                 <tr>
+                    <th>2024-06-17</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2024060700012/">2024年度クリエプロジェクト・ミッション審査会</a>
+                        において「大学混雑度提供アプリ対応施設の拡大と予測モデルの構築」
+                        に関する発表を行いました。
+                    </td>
+                </tr>
+                <tr>
                     <th>2024-04-01</th>
                     <td>
                         <a href="/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
