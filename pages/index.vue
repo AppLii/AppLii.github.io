@@ -1,6 +1,7 @@
 <template>
+    <link rel="preload" href="/index/top-movie.mp4" as="video" type="video/mp4">
     <div class="movie-container">
-        <video autoplay loop muted id="top-movie">
+        <video preload="metadata" autoplay loop muted id="top-movie">
             <source src="/index/top-movie.mp4" type="video/mp4">
             お使いのブラウザでは、動画を再生できません。
         </video>
