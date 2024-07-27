@@ -1,8 +1,7 @@
 <template>
-  <SideBarComponent>
-    <p>このページでは、私たちがリリースしたアプリ・現在開発中のアプリを紹介します。</p>
-    <h1>大学食堂混雑度アプリ(仮名)</h1>
-    <p>現在開発中！</p>
+  <TopTitle title="「どうこむ」について" />
+
+  <SectionComponent>
     <h2>アプリの概要</h2>
     <p>
       このアプリは、大学食堂の混雑状況をスマホで確認できるようにするアプリです。食堂周辺に設置したIoT機器から、食堂の混雑状況を分析し、アプリ上でチェックすることが出来ます。
@@ -15,6 +14,9 @@
         また、他のユーザーはその投票状況を見ることが出来ます。
       </li>
     </ul>
+  </SectionComponent>
+
+  <SectionComponent>
 
     <h2>開発背景</h2>
     <p>
@@ -23,9 +25,14 @@
     <p>
       私たちは、この問題を解決するために、大学食堂の混雑状況をスマホで確認できるアプリを開発しました。このアプリを使えば、学生は混雑状況を事前に確認して、混雑していない時間帯に食堂に行くことができます。
     </p>
+  </SectionComponent>
+
+  <SectionComponent>
     <h2>リリース予定</h2>
     <p>未定です。現在データの計測を始め、混雑状況の推定・予測モデルの構築に取り組んでおります。</p>
+  </SectionComponent>
 
+  <SectionComponent>
     <h2>個人情報について</h2>
 
     <h3>私たちが扱うデータ・利用目的</h3>
@@ -48,16 +55,18 @@
     <p>
       データの取得時には、スマートフォンなどのBluetooth端末から発せられる問い合わせ（Inquiry）信号を受信しています。これは、それぞれの端末が通信を確立するための前提として発せられている情報のため、受信することは通信の秘密にあたらないと考えられます。
     </p>
-  </SideBarComponent>
+  </SectionComponent>
 </template>
 
 <script>
-import SideBarComponent from '~/components/SideBarComponent.vue';
+import SectionComponent from '~/components/SectionComponent.vue';
+import TopTitle from '~/components/TopTitle.vue';
 
 export default {
   name: "AboutCafeApp",
   components: {
-    SideBarComponent
+    SectionComponent,
+    TopTitle,
   },
 };
 </script>

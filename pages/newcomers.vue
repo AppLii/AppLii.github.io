@@ -1,31 +1,39 @@
 <template>
-    <SideBarComponent>
+    <TopTitle title="新入生歓迎会について" />
+    <SectionComponent>
         <h1>2024年度の加入方法について</h1>
         <p>新入生歓迎期間は5月31日(金)で終了させていただきました。これ以降の加入申請は、個別対応となります。</p>
+    </SectionComponent>
 
-        <h1>新入生歓迎会について</h1>
-        <p>2024年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。ぜひ入ってください！</p>
+    <!--
+        <SectionComponent>
+            <p>2024年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。ぜひ入ってください！</p>
 
-        <h2>Discordサーバーへの入り方</h2>
-        <p>
-            こちらのリンクから入ることができます。<br>
-            <a href="https://discord.gg/GJUUr8cr8e" target="_blank">https://discord.gg/GJUUr8cr8e</a>
-        </p>
+            <h2>Discordサーバーへの入り方</h2>
+            <p>
+                こちらのリンクから入ることができます。<br>
+                <a href="https://discord.gg/GJUUr8cr8e" target="_blank">https://discord.gg/GJUUr8cr8e</a>
+            </p>
 
-        <h2>新入生歓迎会の内容 (予定)</h2>
-        <ul>
-            <li>団体紹介<br>（紹介する内容は、このページの内容より詳しいです）</li>
-            <li>私たちが開発しているアプリの紹介</li>
-            <li>ソフトウェア開発にも欠かせない！<br>「伝わるスライド資料の作り方」ミニ講座</li>
-        </ul>
+            <h2>新入生歓迎会の内容 (予定)</h2>
+            <ul>
+                <li>団体紹介<br>（紹介する内容は、このページの内容より詳しいです）</li>
+                <li>私たちが開発しているアプリの紹介</li>
+                <li>ソフトウェア開発にも欠かせない！<br>「伝わるスライド資料の作り方」ミニ講座</li>
+            </ul>
+        </SectionComponent>
+    -->
 
-        <h1>団体紹介</h1>
+    <SectionComponent>
+        <h2>団体紹介</h2>
         <p>私たちについてご紹介します！<br>ちょっと長いですが、基本的な情報はこのページにすべて載っています。</p>
 
         <h2>これまでの活動と歴史</h2>
         <p>私たちは2023年6月に設立されたクリエプロジェクトです。</p>
         <p>ただプログラミングを学ぶだけではなく、その技術によって社会の問題や身近な問題を解決するスキルを身に着けたいと考え、このプロジェクトを立ち上げました。</p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>活動内容</h2>
         <p>主な活動内容はソフトウェア開発です。</p>
         <p>現在はWebアプリの開発に力を入れていますが、これまでの活動にとらわれず取り組んでいきたいと考えています。作りたいものがある方は、ぜひお越しください！</p>
@@ -40,7 +48,9 @@
                 2023年度のクリエミッションとして採択され、予算を割り当てられて</a>
             開発を進めています。
         </p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>活動頻度</h2>
         <p>私たちは、以下2つの定期活動を中心に運営しています。</p>
         <ul>
@@ -53,7 +63,9 @@
         <h2>年間活動スケジュール</h2>
         <p>クリエミッションや自主演習、大学外のコンテストなど、さまざまなイベントに合わせて活動を行っています。こちらも定期的な活動と同じように、必ず参加しないといけない活動はありません。皆さんの興味や目標に合わせて活動することができます。
         </p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>活動費用</h2>
         <p>年会費や参加費はありません。</p>
         <p>ただし、AppLiiなどのクリエプロジェクトに参加するためには、学研災付帯賠償責任保険（通称：学研賠、年間340円）への加入が必要です。この加入方法は、学生支援課にご相談ください。</p>
@@ -64,7 +76,9 @@
             <li> Google Workspace（月680円） </li>
         </ul>
         <p>これらのツールは開発に必須ではないため、必要に応じて自由に選んで利用する方針となっています。</p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>ツール紹介（連絡手段）</h2>
         <p>AppLiiでは、メインのコミュニケーション手段としてDiscordを使っています。Discordサーバーでは、気楽に雑談したり、思いついたアイデアを持ち寄ったり、プログラミングの困り事を共有したりしています。また、Slackなども導入を検討しています。
         </p>
@@ -72,21 +86,25 @@
         <h2>ツール紹介（開発）</h2>
         <p>ソフトウェア開発には、さまざまなツールを活用しています。新しいツールでも積極的に取り入れて、開発を効率化しようと心がけています。現在はGitHubやChatGPTなどを使用していますが、具体的なツール紹介はこちらの記事を御覧ください。
         </p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>活動で身につけられるもの</h2>
         <p>AppLiiでは、ソフトウェアエンジニアとして必要な幅広い能力の獲得を目指しています。</p>
         <p>プログラミング技術の向上は基本としつつ、チームでの共同開発、プロジェクト管理、効果的なコミュニケーション能力の育成にも注力しています。授業では体験できない実践的な経験を通して、多様なスキルを高めていくことが私たちの目標です。これらのスキルを身につけるために、私たちは日々努力を重ね、活動を続けています。
         </p>
-    </SideBarComponent>
+    </SectionComponent>
 </template>
 
 <script>
-import SideBarComponent from '~/components/SideBarComponent.vue';
+import SectionComponent from '~/components/SectionComponent.vue';
+import TopTitle from '~/components/TopTitle.vue';
 
 export default {
     name: 'NewcomersPage',
     components: {
-        SideBarComponent
+        SectionComponent,
+        TopTitle,
     },
 }
 </script>

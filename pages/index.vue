@@ -1,9 +1,12 @@
 <template>
+    <link rel="preload" href="/index/top-movie.mp4" as="video" type="video/mp4">
     <div class="movie-container">
-        <video autoplay loop muted id="top-movie">
-            <source src="/index/top-movie.mp4" type="video/mp4">
-            お使いのブラウザでは、動画を再生できません。
-        </video>
+        <div class="video-container">
+            <video preload="metadata" autoplay loop muted id="top-movie">
+                <source src="/index/top-movie.mp4" type="video/mp4">
+                お使いのブラウザでは、動画を再生できません。
+            </video>
+        </div>
         <div class="movie-text">
             <div>
                 <span class="large">ソフトウェア</span>
@@ -17,23 +20,72 @@
             </div>
         </div>
     </div>
-    <div class="top-texts">
-        <div class="project-name">
-            <span class="text">AppLii</span>
-            <div class="underline"></div>
+
+    <SectionComponent>
+        <div class="top-texts">
+            <div class="project-name">
+                <span class="text">AppLii</span>
+                <div class="underline"></div>
+            </div>
+            <div class="project-sub-name">
+                <span>ITものづくり</span>
+                <span>プロジェクト</span>
+                <span>AppLii</span>
+                <span>（アプリー）</span>
+            </div>
+            <div class="project-description">
+                <p>「AppLii」は、プログラミングを中心とした活動を行う和歌山大学のクリエです。</p>
+                <p>ソフトウェアの開発から運営までを自主的に行うことで、技術者としてのスキル獲得を目指しています。</p>
+            </div>
         </div>
-        <div class="project-sub-name">
-            <span>ITものづくり</span>
-            <span>プロジェクト</span>
-            <span>AppLii</span>
-            <span>（アプリー）</span>
+    </SectionComponent>
+
+    <SectionComponent>
+        <h2>はじめましての方へ</h2>
+        <div class="box-a-container">
+            <a class="box-a" href="/newcomers">
+                <div>
+                    <HumanGreeting size="60px" />
+                </div>
+                <div>AppLiiについて知る</div>
+
+            </a>
+            <a class="box-a" href="/about-us">
+                <div>
+                    <Information size="60px" />
+                </div>
+                <div>団体概要</div>
+
+            </a>
+            <a class="box-a" href="/contact">
+                <div>
+                    <EmailFast size="60px" />
+                </div>
+                <div>お問い合わせ</div>
+
+
+            </a>
         </div>
-        <div class="project-description">
-            <p>「AppLii」は、プログラミングを中心とした活動を行う和歌山大学のクリエです。</p>
-            <p>ソフトウェアの開発から運営までを自主的に行うことで、技術者としてのスキル獲得を目指しています。</p>
+    </SectionComponent>
+
+    <SectionComponent>
+        <h2>AppLiiが開発・運営するサービス</h2>
+        <p>私たちは、さまざまなサービスを開発・運営しています。主に学内向けに提供しているサービスをこちらで紹介します。</p>
+        <div class="box-a-container">
+            <a href="/about-cafe-app" class="box-a" target="_blank">
+                <div>
+                    <Coffee size="60px" />
+                </div>
+                <div>「どうこむ」<br />和大の食堂混雑度アプリ</div>
+            </a>
+            <a href="https://applii-wu.net/find-free-classroom/" class="box-a" target="_blank">
+                <div>
+                    <CalendarMonth size="60px" />
+                </div>
+                <div>空き教室検索システム</div>
+            </a>
         </div>
-    </div>
-    <div>
+
         <!--
             <h1>サービス</h1>
             <p>私たちが開発したソフトウェア</p>
@@ -41,15 +93,21 @@
             <p>私たちの特徴</p>
             <h1>ニュース</h1>
         -->
-        <div class="box-a-container">
-            <a class="box-a" href="/newcomers">新歓について知る</a>
-            <a class="box-a" href="/about-us">AppLiiについて知る</a>
-            <a class="box-a" href="/contact">お問い合わせ</a>
-        </div>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>ニュース</h2>
         <table class="responsive-enabled news-table">
             <tbody>
+                <tr>
+                    <th>2024-06-17</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2024060700012/">2024年度クリエプロジェクト・ミッション審査会</a>
+                        において「大学混雑度提供アプリ対応施設の拡大と予測モデルの構築」
+                        に関する発表を行いました。
+                    </td>
+                </tr>
                 <tr>
                     <th>2024-04-01</th>
                     <td>
@@ -107,12 +165,29 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </SectionComponent>
+
 </template>
 
 <script>
+import SectionComponent from '~/components/SectionComponent.vue';
+// MEMO: https://pictogrammers.com/library/mdi/ これ見ながら良いアイコンを探す
+import HumanGreeting from 'vue-material-design-icons/HumanGreeting.vue';
+import EmailFast from "vue-material-design-icons/EmailFast.vue";
+import Information from "vue-material-design-icons/Information.vue";
+import Coffee from "vue-material-design-icons/Coffee.vue";
+import CalendarMonth from "vue-material-design-icons/CalendarMonth.vue";
+
 export default {
     name: 'MainPage',
+    components: {
+        SectionComponent,
+        HumanGreeting,
+        EmailFast,
+        Information,
+        Coffee,
+        CalendarMonth,
+    },
     mounted() {
         const topMovie = document.getElementById('top-movie');
         if (topMovie) {
@@ -137,15 +212,29 @@ useHead({
 .movie-container {
     position: relative;
     width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; // 16:9
+    height: 400px;
+    max-height: 40vh;
 
-    video {
+    .video-container {
         position: absolute;
         top: 0;
         left: 0;
+
         width: 100%;
-        height: 100%;
+        height: 400px;
+        max-height: 40vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: cover;
+        }
     }
 
     .movie-text {
@@ -167,11 +256,11 @@ useHead({
         }
 
         span.large {
-            font-size: clamp(1.5rem, 8vw, 8rem);
+            font-size: clamp(1.5rem, 8vw, 5rem);
         }
 
         span.small {
-            font-size: clamp(1rem, 5vw, 5rem);
+            font-size: clamp(1rem, 5vw, 3rem);
         }
     }
 }
@@ -265,7 +354,9 @@ div.top-texts {
     width: 100%;
 
     .box-a {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-decoration: none;
         border: 0.15rem solid #404040;
         color: #404040;
@@ -273,6 +364,7 @@ div.top-texts {
         margin: 0.5rem;
         padding: 0.5rem;
         width: 20rem;
+        min-height: 120px;
         text-align: center;
         font-size: 1.5rem;
         white-space: nowrap;

@@ -1,6 +1,6 @@
 <template>
-    <SideBarComponent>
-        <h1 id="h-5">使用言語・開発環境について</h1>
+    <TopTitle title="開発環境について" />
+    <SectionComponent>
         <p>私たちのチームは、最新の技術と効率的なツールを駆使して、高品質なソフトウェアの開発を目指しています。</p>
 
         <h2>言語・フレームワークの使用割合</h2>
@@ -31,12 +31,16 @@
                 </tbody>
             </table>
         </div>
+    </SectionComponent>
 
+    <SectionComponent>
         <div v-for="(row, index) in usage" :key="index">
             <h4>{{ row.name }} {{ row.percentage }}</h4>
             <p>{{ row.desc }}</p>
         </div>
+    </SectionComponent>
 
+    <SectionComponent>
         <h2>その他</h2>
         <h3> クラウド・サービス </h3>
         <p><strong>Microsoft Azure：</strong>クラウドサーバーとして利用しています。たくさんのサービスが提供されていますが、このプロジェクトではApp
@@ -59,7 +63,9 @@
 
         <h3> コミュニケーションツール </h3>
         <p><strong>Discord：</strong>ほぼすべての連絡をDiscordで行っています。</p>
+    </SectionComponent>
 
+    <SectionComponent>
         <h3>開発効率化</h3>
         <p>
             <strong>ChatGPT（GPT-4）：</strong>
@@ -73,16 +79,19 @@
             <strong>Codeium：</strong>
             GitHub Copilotと同様にコードの作成を効率化するために利用しています。こちらは完全に無料であり、実験的に併用しています。
         </p>
-    </SideBarComponent>
+    </SectionComponent>
+
 </template>
 
 <script>
-import SideBarComponent from '~/components/SideBarComponent.vue';
+import SectionComponent from '~/components/SectionComponent.vue'
+import TopTitle from '~/components/TopTitle.vue'
 
 export default {
     name: 'AboutDevelopment',
     components: {
-        SideBarComponent
+        SectionComponent,
+        TopTitle,
     },
 }
 </script>
