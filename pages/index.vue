@@ -45,21 +45,21 @@
         <div class="box-a-container">
             <a class="box-a" href="/newcomers">
                 <div>
-                    <HumanGreeting size="80px" />
-                </div>
-                <div>新歓について知る</div>
-
-            </a>
-            <a class="box-a" href="/about-us">
-                <div>
-                    <Information size="80px" />
+                    <HumanGreeting size="60px" />
                 </div>
                 <div>AppLiiについて知る</div>
 
             </a>
+            <a class="box-a" href="/about-us">
+                <div>
+                    <Information size="60px" />
+                </div>
+                <div>団体概要</div>
+
+            </a>
             <a class="box-a" href="/contact">
                 <div>
-                    <EmailFast size="80px" />
+                    <EmailFast size="60px" />
                 </div>
                 <div>お問い合わせ</div>
 
@@ -71,6 +71,21 @@
     <SectionComponent>
         <h2>AppLiiが開発・運営するサービス</h2>
         <p>私たちは、さまざまなサービスを開発・運営しています。主に学内向けに提供しているサービスをこちらで紹介します。</p>
+        <div class="box-a-container">
+            <a href="/about-cafe-app" class="box-a" target="_blank">
+                <div>
+                    <Coffee size="60px" />
+                </div>
+                <div>「どうこむ」<br />和大の食堂混雑度アプリ</div>
+            </a>
+            <a href="https://applii-wu.net/find-free-classroom/" class="box-a" target="_blank">
+                <div>
+                    <CalendarMonth size="60px" />
+                </div>
+                <div>空き教室検索システム</div>
+            </a>
+        </div>
+
         <!--
             <h1>サービス</h1>
             <p>私たちが開発したソフトウェア</p>
@@ -160,6 +175,8 @@ import SectionComponent from '~/components/SectionComponent.vue';
 import HumanGreeting from 'vue-material-design-icons/HumanGreeting.vue';
 import EmailFast from "vue-material-design-icons/EmailFast.vue";
 import Information from "vue-material-design-icons/Information.vue";
+import Coffee from "vue-material-design-icons/Coffee.vue";
+import CalendarMonth from "vue-material-design-icons/CalendarMonth.vue";
 
 export default {
     name: 'MainPage',
@@ -168,6 +185,8 @@ export default {
         HumanGreeting,
         EmailFast,
         Information,
+        Coffee,
+        CalendarMonth,
     },
     mounted() {
         const topMovie = document.getElementById('top-movie');
@@ -345,7 +364,7 @@ div.top-texts {
         margin: 0.5rem;
         padding: 0.5rem;
         width: 20rem;
-        min-height: 160px;
+        min-height: 120px;
         text-align: center;
         font-size: 1.5rem;
         white-space: nowrap;
