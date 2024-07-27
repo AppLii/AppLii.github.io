@@ -1,4 +1,8 @@
-# pages
+# applii-homepage
+
+[![Build and Commit Vue.js Project](https://github.com/AppLii/AppLii.github.io/actions/workflows/build-vue.yml/badge.svg)](https://github.com/AppLii/AppLii.github.io/actions/workflows/build-vue.yml) [![pages-build-deployment](https://github.com/AppLii/AppLii.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AppLii/AppLii.github.io/actions/workflows/pages/pages-build-deployment)
+
+[![Dependabot Updates](https://github.com/AppLii/AppLii.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/AppLii/AppLii.github.io/actions/workflows/dependabot/dependabot-updates)
 
 ## 概要
 
