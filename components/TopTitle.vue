@@ -31,5 +31,6 @@ export default {
     font-weight: 600;
     max-width: 1200px;
     margin: 1rem;
+    text-shadow: -4px -4px 20px rgba(255, 255, 255, 0.25);
 }
 </style>
