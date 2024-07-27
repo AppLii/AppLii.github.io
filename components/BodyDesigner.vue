@@ -49,11 +49,6 @@ html {
         font-family: 'Noto Sans JP', sans-serif;
 
         .body-designer {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 4px 24px;
-            background-color: white;
-
             div.wrap-container {
                 overflow-x: auto;
             }
@@ -69,19 +64,21 @@ html {
                             color: white;
                             padding: 2px 12px;
                             justify-content: center;
+                            font-weight: 500;
                         }
                     }
                 }
 
                 tbody {
                     tr {
-                        border-top: 0.5px solid rgb(200, 200, 200);
-                        border-bottom: 0.5px solid rgb(200, 200, 200);
+                        border-top: 0.5px solid hsl(0, 0%, 85%);
+                        border-bottom: 0.5px solid hsl(0, 0%, 85%);
 
                         th {
                             font-weight: 400;
                             padding: 0.6rem 0.5rem;
-                            justify-content: center;
+                            text-align: left;
+                            font-weight: 600;
                             white-space: nowrap;
                         }
 
@@ -136,56 +133,38 @@ html {
             h4,
             h5,
             h6 {
-                margin: 16px 0 8px 4px;
-                padding: 0 0 0 8px;
+                margin: 16px 0 8px 0;
+                padding: 0 0 0 0;
             }
 
 
             h1 {
-                font-size: 1.6rem;
+                font-size: 32px;
                 font-weight: 500;
-                padding: 0 0 0 1.1rem;
-                border: 0.2rem solid $main-color;
-                position: relative;
-            }
-
-            h1::before {
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                border-width: 1.1rem 1.1rem 0 0;
-                border-style: solid;
-                border-color: $main-color transparent transparent transparent;
             }
 
             h2 {
-                font-size: 1.2rem;
+                font-size: 28px;
                 font-weight: 500;
-                border-left: 4px solid $main-color;
-                background-color: $main-color-pale;
             }
 
             h3 {
-                font-size: 1.0rem;
+                font-size: 24px;
                 font-weight: 600;
-                border-left: 4px solid $main-color;
-                border-bottom: 1px solid $main-color;
             }
 
             h4 {
-                font-size: 1.0rem;
+                font-size: 20px;
                 font-weight: 600;
-                border-left: 4px solid $main-color;
             }
 
             h5 {
-                font-size: 1.0rem;
+                font-size: 20px;
                 font-weight: 600;
             }
 
             h6 {
-                font-size: 1.0rem;
+                font-size: 20px;
                 font-weight: 600;
             }
         }
@@ -214,8 +193,8 @@ html {
                 margin: 0 0 0.8rem 0;
             }
 
-            tr:nth-of-type(even) {
-                background-color: $pale;
+            tr:nth-of-type(odd) {
+                background-color: hsl(0, 0%, 98%);
             }
         }
     }
@@ -225,7 +204,11 @@ html {
     .body-designer {
         table.responsive-enabled {
             th {
-                background-color: $pale;
+                background-color: hsl(0, 0%, 98%);
+            }
+
+            td {
+                background-color: white;
             }
         }
     }
