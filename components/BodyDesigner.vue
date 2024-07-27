@@ -64,19 +64,21 @@ html {
                             color: white;
                             padding: 2px 12px;
                             justify-content: center;
+                            font-weight: 500;
                         }
                     }
                 }
 
                 tbody {
                     tr {
-                        border-top: 0.5px solid rgb(200, 200, 200);
-                        border-bottom: 0.5px solid rgb(200, 200, 200);
+                        border-top: 0.5px solid hsl(0, 0%, 85%);
+                        border-bottom: 0.5px solid hsl(0, 0%, 85%);
 
                         th {
                             font-weight: 400;
                             padding: 0.6rem 0.5rem;
-                            justify-content: center;
+                            text-align: left;
+                            font-weight: 600;
                             white-space: nowrap;
                         }
 
@@ -191,8 +193,8 @@ html {
                 margin: 0 0 0.8rem 0;
             }
 
-            tr:nth-of-type(even) {
-                background-color: $pale;
+            tr:nth-of-type(odd) {
+                background-color: hsl(0, 0%, 98%);
             }
         }
     }
@@ -202,7 +204,11 @@ html {
     .body-designer {
         table.responsive-enabled {
             th {
-                background-color: $pale;
+                background-color: hsl(0, 0%, 98%);
+            }
+
+            td {
+                background-color: white;
             }
         }
     }
