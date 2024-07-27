@@ -18,7 +18,7 @@ export default {
     margin: 0;
 
     .width-adjust {
-        max-width: 1200px;
+        max-width: 900px;
         margin: 0 auto;
     }
 }
