@@ -1,10 +1,12 @@
 <template>
-    <SideBarComponent>
-        <div id="sidebar-content"></div>
-        <h1>私たちについて</h1>
+    <TopTitle title="私たちについて" />
+    <SectionComponent>
         <p>AppLiiは、和歌山大学学生自主創造支援部門（クリエ）に立ち上げられたプロジェクトです。私たちは、テクノロジーを活用して社会に貢献することを目指しています。</p>
         <p>私たちは、ソフトウェア開発の全工程に携わっています。企画から設計、コーディング、運用、そしてマーケティングまで、一貫して行うことで、実践的なスキルと経験を積んでいます。これらの活動は自主性を重んじており、メンバーが主体的に学習することが求められます。AppLiiでは、エンジニアとして必要な能力を身につけるために、日々精進しています。
         </p>
+    </SectionComponent>
+
+    <SectionComponent>
         <h2>団体情報</h2>
         <table class="responsive-enabled">
             <tbody>
@@ -74,17 +76,20 @@
                 </tr>
             </tbody>
         </table>
-    </SideBarComponent>
+    </SectionComponent>
+
 </template>
 
 <script>
-import SideBarComponent from '~/components/SideBarComponent.vue';
+import TopTitle from '~/components/TopTitle.vue';
+import SectionComponent from '~/components/SectionComponent.vue';
 
 
 export default {
     name: "AboutUs",
     components: {
-        SideBarComponent
+        TopTitle,
+        SectionComponent,
     },
 }
 </script>
