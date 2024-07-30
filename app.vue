@@ -1,10 +1,16 @@
 <template>
   <div>
-    <HeaderComponent />
-    <BodyDesignerComponent>
-      <Nuxt-Page />
-    </BodyDesignerComponent>
-    <FooterComponent />
+    <header>
+      <HeaderComponent />
+    </header>
+    <main>
+      <BodyDesignerComponent>
+        <Nuxt-Page />
+      </BodyDesignerComponent>
+    </main>
+    <footer>
+      <FooterComponent />
+    </footer>
   </div>
 </template>
 
