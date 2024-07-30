@@ -1,22 +1,23 @@
 <template>
-    <header class="header hamburger-menu">
-        <a href="/" class="header-logo">AppLii</a>
-        <input type="checkbox" name="hamburger" id="hamburger" class="hamburger-menu-input" />
-        <label for="hamburger" class="hamburger-menu-bg"></label>
-        <ul class="header-list hamburger-menu-list">
-            <li class="header-list-item" v-for="link in links">
-                <a :href="link.url" class="header-list-link">{{ link.text }}</a>
-            </li>
-        </ul>
-        <label for="hamburger" class="hamburger-menu-button">
-            <span class="hamburger-menu-button-mark"></span>
-            <span class="hamburger-menu-button-mark"></span>
-            <span class="hamburger-menu-button-mark"></span>
-        </label>
-    </header>
+    <nav class="navigation hamburger-menu">
+        <div class="header">
+            <a href="/" class="header-logo">AppLii</a>
+            <input type="checkbox" name="hamburger" id="hamburger" class="hamburger-menu-input" />
+            <label for="hamburger" class="hamburger-menu-bg"></label>
+            <ul class="header-list hamburger-menu-list">
+                <li class="header-list-item" v-for="link in links" :key="link.url">
+                    <a :href="link.url" class="header-list-link">{{ link.text }}</a>
+                </li>
+            </ul>
+            <label for="hamburger" class="hamburger-menu-button">
+                <span class="hamburger-menu-button-mark"></span>
+                <span class="hamburger-menu-button-mark"></span>
+                <span class="hamburger-menu-button-mark"></span>
+            </label>
+        </div>
+    </nav>
     <div class="header-size"></div>
 </template>
-
 <script>
 import { ref } from 'vue'
 
