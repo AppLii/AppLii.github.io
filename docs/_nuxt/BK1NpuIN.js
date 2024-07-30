@@ -1,0 +1,1 @@
+import{_ as e,o,c as s,b as a,t as c}from"./D732mddC.js";const i={props:{title:{type:String,default:""}}},n={class:"top-title-box"},r={class:"top-title"};function _(p,l,t,d,f,b){return o(),s("div",n,[a("div",r,c(t.title),1)])}const u=e(i,[["render",_],["__scopeId","data-v-6b713b12"]]);export{u as T};
