@@ -100,6 +100,14 @@
         <table class="responsive-enabled news-table">
             <tbody>
                 <tr>
+                    <th>2024-09-24</th>
+                    <td>
+                        <a target="_blank" href="https://www.pref.wakayama.lg.jp/prefg/020400/d00218019.html">
+                            和歌山大学の学生団体と企業・自治体の交流イベント「NexGen Synergy」</a>
+                        において『和歌山大の食堂混雑度アプリ「どうこむ」を支える技術』の発表を行いました。
+                    </td>
+                </tr>
+                <tr>
                     <th>2024-06-17</th>
                     <td>
                         <a target="_blank"
