@@ -45,8 +45,9 @@
     </SectionComponent>
 
     <SectionComponent>
-        <h2>アクセス</h2>
-        <p>〒640-8441 和歌山県和歌山市栄谷930（和歌山大学の所在地です）</p>
+        <h2>アクセス・住所</h2>
+        <p>〒640-8510</p>
+        <p>和歌山市栄谷930番地和歌山大学北2号館1Fクリエ ITものづくりプロジェクト「AppLii」</p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1165.7763638564174!2d135.15049863222418!3d34.26605733723412!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000b207cc09151b%3A0xac8894df98bc7583!2z5ZKM5q2M5bGx5aSn5a2m!5e0!3m2!1sja!2sjp!4v1722045545400!5m2!1sja!2sjp"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
