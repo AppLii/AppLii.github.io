@@ -99,12 +99,47 @@
         <h2>ニュース</h2>
         <table class="responsive-enabled news-table">
             <tbody>
+                <!--
+                <tr>
+                    <th>2024-00-00</th>
+                    <td>
+                        <a target="_blank" href="https">text</a>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <th>2024-11-30</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.tokushima-u.ac.jp/docs/58875.html">徳島大学イノベーションプラザ開所20周年記念式典・講演会</a>の学生プロジェクト発表会において、AppLiiの活動について発表を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2024-11-17</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/news/2024111800111/">和歌山大学大学祭（和大祭）</a>において出展を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2024-11-04</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2024102100060/">青少年のための科学の祭典2024おもしろ科学まつり</a>において出展を行いました。
+                    </td>
+                </tr>
                 <tr>
                     <th>2024-09-24</th>
                     <td>
                         <a target="_blank" href="https://www.pref.wakayama.lg.jp/prefg/020400/d00218019.html">
                             和歌山大学の学生団体と企業・自治体の交流イベント「NexGen Synergy」</a>
                         において『和歌山大の食堂混雑度アプリ「どうこむ」を支える技術』の発表を行いました。
+                    </td>
+                </tr>
+                <tr>
+                    <th>2024-07-02</th>
+                    <td>
+                        「大学混雑度提供アプリ対応施設の拡大と予測モデルの構築」が2024クリエプロジェクトミッションとして採択されました。
                     </td>
                 </tr>
                 <tr>
