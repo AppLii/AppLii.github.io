@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,b as n}from"./BQTzaz_R.js";const s={mounted(){window.location.href="/"}},c=n("h1",null,"Redirecting...",-1),a=[c];function r(_,d,i,l,p,f){return t(),o("div",null,a)}const h=e(s,[["render",r]]);export{h as default};
