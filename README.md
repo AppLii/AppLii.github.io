@@ -51,6 +51,12 @@ npm install
 
 `/pages`ディレクトリに新しい Vue ファイルを作成すると、新しいページを追加できます。
 
+例：
+
+- `pages/index.vue` → `/` (ホームページ)
+- `pages/about.vue` → `/about`
+- `pages/blog/index.vue` → `/blog`
+
 ### ページデザインの変更方法
 
 ## デプロイの方法
