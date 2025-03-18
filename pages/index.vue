@@ -47,14 +47,14 @@
                 <div>
                     <HumanGreeting size="60px" />
                 </div>
-                <div>AppLiiについて知る</div>
+                <div>加入方法・新歓</div>
 
             </a>
             <a class="box-a" href="/about-us">
                 <div>
                     <Information size="60px" />
                 </div>
-                <div>団体概要</div>
+                <div>AppLiiとは？</div>
 
             </a>
             <a class="box-a" href="/contact">
@@ -107,6 +107,13 @@
                     </td>
                 </tr>
                 -->
+                <tr>
+                    <th>2025-03-10</th>
+                    <td>
+                        <a target="_blank"
+                            href="https://www.wakayama-u.ac.jp/crea/news/2025013100088/">2024年度クリエプロジェクト・ミッション成果発表会</a>において、「大学混雑度提供アプリ対応施設の拡大と予測モデルの構築」に関する発表を行いました。
+                    </td>
+                </tr>
                 <tr>
                     <th>2024-11-30</th>
                     <td>

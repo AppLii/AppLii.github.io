@@ -14,7 +14,7 @@
           <h1>コンテンツ</h1>
           <ul>
             <li><a href="/">トップページ</a></li>
-            <li><a href="/about-us">AppLiiとは？</a></li>
+            <li><a href="/about-us">AppLiiとは？（団体概要）</a></li>
             <li><a href="/about-dev">開発環境について</a></li>
             <li><a href="/newcomers">加入方法について</a></li>
             <li><a href="/contact">お問い合わせ</a></li>
@@ -29,10 +29,11 @@
         <div>
           <h1>各種リンク</h1>
           <ul>
-            <li><a href="https://github.com/AppLii">AppLii｜GitHubリポジトリ</a></li>
-            <li><a href="https://twitter.com/applii_crea">AppLii｜Twitter（X）アカウント</a></li>
-            <li><a href="https://www.wakayama-u.ac.jp/">和歌山大学｜ホームページ</a></li>
-            <li><a href="https://www.wakayama-u.ac.jp/crea/index.html">和歌山大学｜学生自主創造支援部門（クリエ）</a></li>
+            <li><a target="_blank" href="https://github.com/AppLii">AppLii｜GitHubリポジトリ</a></li>
+            <li><a target="_blank" href="https://twitter.com/applii_crea">AppLii｜Twitter（X）アカウント</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/applii.crea">AppLii｜Instagramアカウント</a> </li>
+            <li><a target="_blank" href="https://www.wakayama-u.ac.jp/">和歌山大学｜ホームページ</a></li>
+            <li><a target="_blank" href="https://www.wakayama-u.ac.jp/crea/index.html">和歌山大学｜学生自主創造支援部門（クリエ）</a></li>
           </ul>
         </div>
       </div>

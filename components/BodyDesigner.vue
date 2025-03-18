@@ -4,8 +4,8 @@
     </div>
     <div class="information-icon">
         <div class="icon-body">
-            <a href="https://discord.gg/GJUUr8cr8e" target="_blank">
-                <span style="font-size: 1.2rem;">新歓Discordサーバーは</span>
+            <a href="/newcomers">
+                <span style="font-size: 1.2rem;">新歓に関する情報は</span>
                 <span style="font-size: 1.5rem;">こちらから！</span></a>
         </div>
     </div>

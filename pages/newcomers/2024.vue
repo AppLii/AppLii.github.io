@@ -1,28 +1,26 @@
 <template>
-    <TopTitle title="新入生歓迎会について" />
+    <TopTitle title="加入方法" />
     <SectionComponent>
-        <h1>2024年度の加入方法について</h1>
-        <p>新入生歓迎期間は5月31日(金)で終了させていただきました。これ以降の加入申請は、個別対応となります。</p>
+        <h1>2024年度の新歓ページ</h1>
+        <p>新入生歓迎期間は2024年5月31日(金)で終了させていただきました。これ以降の加入申請は、個別対応となります。</p>
     </SectionComponent>
 
-    <!--
-        <SectionComponent>
-            <p>2024年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。ぜひ入ってください！</p>
+    <SectionComponent>
+        <p>2024年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。ぜひ入ってください！</p>
 
-            <h2>Discordサーバーへの入り方</h2>
-            <p>
-                こちらのリンクから入ることができます。<br>
-                <a href="https://discord.gg/GJUUr8cr8e" target="_blank">https://discord.gg/GJUUr8cr8e</a>
-            </p>
+        <h2>Discordサーバーへの入り方</h2>
+        <p>
+            こちらのリンクから入ることができます。<br>
+            <a>（リンクは廃止済みです）</a>
+        </p>
 
-            <h2>新入生歓迎会の内容 (予定)</h2>
-            <ul>
-                <li>団体紹介<br>（紹介する内容は、このページの内容より詳しいです）</li>
-                <li>私たちが開発しているアプリの紹介</li>
-                <li>ソフトウェア開発にも欠かせない！<br>「伝わるスライド資料の作り方」ミニ講座</li>
-            </ul>
-        </SectionComponent>
-    -->
+        <h2>新入生歓迎会の内容 (予定)</h2>
+        <ul>
+            <li>団体紹介<br>（紹介する内容は、このページの内容より詳しいです）</li>
+            <li>私たちが開発しているアプリの紹介</li>
+            <li>ソフトウェア開発にも欠かせない！<br>「伝わるスライド資料の作り方」ミニ講座</li>
+        </ul>
+    </SectionComponent>
 
     <SectionComponent>
         <h2>団体紹介</h2>
@@ -111,11 +109,11 @@ export default {
 
 <script setup>
 useHead({
-    title: '新入生歓迎会について｜AppLii',
+    title: '2024年度の新歓ページ｜AppLii',
     meta: [
-        { name: 'description', content: '新入生歓迎会についてご紹介します。' },
-        { property: 'og:title', content: '新入生歓迎会について｜AppLii' },
-        { property: 'og:description', content: '新入生歓迎会についてご紹介します。' },
+        { name: 'description', content: '2024年度の新歓についてご紹介します。' },
+        { property: 'og:title', content: '2024年度の新入生歓迎会について｜AppLii' },
+        { property: 'og:description', content: '2024年度の新歓についてご紹介します。' },
     ],
 })
 </script>
