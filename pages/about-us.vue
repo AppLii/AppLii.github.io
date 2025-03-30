@@ -1,13 +1,13 @@
 <template>
-    <TopTitle title="私たちについて" />
+    <TopTitle title="AppLiiとは？" />
     <SectionComponent>
-        <p>AppLiiは、和歌山大学学生自主創造支援部門（クリエ）に立ち上げられたプロジェクトです。私たちは、テクノロジーを活用して社会に貢献することを目指しています。</p>
+        <p>ITものづくりプロジェクト AppLii（アプリー）は、和歌山大学学生自主創造支援部門（クリエ）に立ち上げられたプロジェクトです。私たちは、テクノロジーを活用して社会に貢献することを目指しています。</p>
         <p>私たちは、ソフトウェア開発の全工程に携わっています。企画から設計、コーディング、運用、そしてマーケティングまで、一貫して行うことで、実践的なスキルと経験を積んでいます。これらの活動は自主性を重んじており、メンバーが主体的に学習することが求められます。AppLiiでは、エンジニアとして必要な能力を身につけるために、日々精進しています。
         </p>
     </SectionComponent>
 
     <SectionComponent>
-        <h2>団体情報</h2>
+        <h2>団体概要</h2>
         <table class="responsive-enabled">
             <tbody>
                 <tr>
@@ -65,14 +65,13 @@
                 <tr>
                     <th>所在地</th>
                     <td>
-                        <div>〒640-8441</div>
-                        <div>和歌山県和歌山市栄谷930</div>
-                        <div>（和歌山大学の所在地です）</div>
+                        <div>〒640-8510</div>
+                        <div>和歌山県和歌山市栄谷930番地 和歌山大学北2号館1F クリエ ITものづくりプロジェクト「AppLii」</div>
                     </td>
                 </tr>
                 <tr>
                     <th>連絡先</th>
-                    <td><a href="/contact">こちら</a>のページに連絡先や各種SNS、お問い合わせフォームなどを用意しております。</td>
+                    <td><a href="/contact">お問い合わせページ</a>に連絡先や各種SNS、フォームなどを掲載しております。</td>
                 </tr>
             </tbody>
         </table>
@@ -96,11 +95,11 @@ export default {
 
 <script setup>
 useHead({
-    title: '私たちについて｜AppLii',
+    title: 'AppLiiとは？｜AppLii',
     meta: [
-        { name: 'description', content: '私たちAppLiiについてご紹介します。' },
-        { property: 'og:title', content: '私たちについて｜AppLii' },
-        { property: 'og:description', content: '私たちAppLiiについてご紹介します。' },
+        { name: 'description', content: 'ITものづくりプロジェクト AppLiiについてご紹介します。' },
+        { property: 'og:title', content: 'AppLiiとは？｜AppLii' },
+        { property: 'og:description', content: 'ITものづくりプロジェクト AppLiiについてご紹介します。' },
     ],
 })
 </script>
