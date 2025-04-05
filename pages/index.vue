@@ -108,6 +108,12 @@
                 </tr>
                 -->
                 <tr>
+                    <th>2025-04-01</th>
+                    <td>
+                        <a href="/newcomers">新入生歓迎会に関する情報</a>を掲載しました！
+                    </td>
+                </tr>
+                <tr>
                     <th>2025-03-10</th>
                     <td>
                         <a target="_blank"
