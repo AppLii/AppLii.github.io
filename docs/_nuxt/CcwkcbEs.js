@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,b as n,k as c}from"./DpTz5rPD.js";const a={name:"SectionComponent"},r={class:"section"},d={class:"width-adjust"};function i(e,_,p,l,m,f){return s(),t("div",r,[n("div",d,[c(e.$slots,"default")])])}const $=o(a,[["render",i]]);export{$ as S};
