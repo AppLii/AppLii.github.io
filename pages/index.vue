@@ -268,8 +268,8 @@ useHead({
 .movie-container {
     position: relative;
     width: 100%;
-    height: 400px;
-    max-height: 40vh;
+    height: 250px;
+    max-height: 25vh;
 
     .video-container {
         position: absolute;
@@ -277,8 +277,8 @@ useHead({
         left: 0;
 
         width: 100%;
-        height: 400px;
-        max-height: 40vh;
+        height: 250px;
+        max-height: 25vh;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -312,11 +312,11 @@ useHead({
         }
 
         span.large {
-            font-size: clamp(1.5rem, 8vw, 5rem);
+            font-size: clamp(1.5rem, 8vw, 3rem);
         }
 
         span.small {
-            font-size: clamp(1rem, 5vw, 3rem);
+            font-size: clamp(1rem, 5vw, 2rem);
         }
     }
 }
