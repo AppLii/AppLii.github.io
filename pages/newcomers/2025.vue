@@ -5,11 +5,17 @@
         <p>新入生歓迎期間は2025年5月31日(土)までとさせていただきます。これ以降の加入申請は、個別対応となります。</p>
     </SectionComponent>
 
-    <SectionComponent>
+    <SectionComponent style="background-color: rgb(255, 255, 228);">
         <h2>Discordサーバーへの入り方</h2>
-        <p>2025年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。ぜひ入ってください！</p>
-        <p> こちらのリンクから入ることができます。 </p>
-        <p> <a href="https://discord.gg/dCK2XFecSw" target="_blank">AppLii新歓Discordサーバー</a> </p>
+        <p>2025年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。以下のリンクから入ることができます。 </p>
+        <p></p>
+        <p> <a class="discord-link" href="https://discord.gg/dCK2XFecSw" target="_blank">AppLii新歓Discordサーバーに参加する</a>
+        </p>
+        <ul>
+            <li>新歓情報をいち早く知ることができる！</li>
+            <li>先輩に直接質問できる！</li>
+            <li><strong>最初は見るだけでも大歓迎！</strong> 自己紹介や発言は必須ではありません！</li>
+        </ul>
     </SectionComponent>
 
     <SectionComponent>
@@ -118,4 +124,25 @@ useHead({
 })
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.discord-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #7289DA;
+    border: 2px solid #7289DA;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 4px 8px 8px rgba(114, 137, 218, 0.2);
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: #f6f6ff;
+        color: #7289DA;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(114, 137, 218, 0.3);
+    }
+}
+</style>
