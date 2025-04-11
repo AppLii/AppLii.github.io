@@ -87,12 +87,14 @@
 
     <SectionComponent>
         <h2>新歓についての問い合わせ</h2>
-        <p>各種SNSのDM</p>
+        <p>各種SNS/p>
         <ul>
             <li><a href="https://www.instagram.com/applii.crea/" target="_blank">Instagram（@applii.crea）</a></li>
             <li><a href="https://twitter.com/applii_crea" target="_blank">X（@applii_crea）</a></li>
+            <li><a href="https://line.me/R/ti/p/@995oioqz" target="_blank">LINE（AppLii新歓）</a></li>
         </ul>
         <p>DM以外の手段でのお問い合わせはお答えできません</p>
+
         <h2>メールアドレス</h2>
         <p>applii.crea[@]gmail.com</p>
         <p>お問い合わせは3日以内にお答えいたします。3日以内に返答がない場合は、大変お手数をおかけしますが再度ご連絡いただけると幸いです。</p>
