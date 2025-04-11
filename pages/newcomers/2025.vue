@@ -87,7 +87,7 @@
 
     <SectionComponent>
         <h2>新歓についての問い合わせ</h2>
-        <p>各種SNSのDM/p>
+        <p>各種SNSのDM</p>
         <ul>
             <li><a href="https://www.instagram.com/applii.crea/" target="_blank">Instagram（@applii.crea）</a></li>
             <li><a href="https://twitter.com/applii_crea" target="_blank">X（@applii_crea）</a></li>
