@@ -91,6 +91,7 @@
         <ul>
             <li><a href="https://www.instagram.com/applii.crea/" target="_blank">Instagram（@applii.crea）</a></li>
             <li><a href="https://twitter.com/applii_crea" target="_blank">X（@applii_crea）</a></li>
+            <li><a href="https://line.me/R/ti/p/@995oioqz" target="_blank">LINE公式アカウント（AppLii新歓）</a></li>
         </ul>
         <p>DM以外の手段でのお問い合わせはお答えできません</p>
         <h2>メールアドレス</h2>
