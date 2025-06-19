@@ -47,15 +47,15 @@
                 <tr>
                     <th>メンバー数</th>
                     <td>
-                        <div> 13名（2024年6月時点） </div>
+                        <div> 22名（2025年6月時点） </div>
                         <div style="margin-top: 0.75rem;">【学年別】</div>
-                        <div>・1年生：8名</div>
-                        <div>・2年生：3名</div>
-                        <div>・3年生：2名</div>
-                        <div>・4年生：0名</div>
+                        <div>・1年生：9名</div>
+                        <div>・2年生：8名</div>
+                        <div>・3年生：3名</div>
+                        <div>・4年生：2名</div>
                         <div style="margin-top: 0.75rem;">【学部別】</div>
-                        <div>・システム工学部：11名</div>
-                        <div>・経済学部：1名</div>
+                        <div>・システム工学部：19名</div>
+                        <div>・経済学部：2名</div>
                         <div>・教育学部：0名</div>
                         <div>・観光学部：0名</div>
                         <div>・社会インフォマティクス学環：1名</div>

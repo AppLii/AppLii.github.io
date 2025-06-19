@@ -2,9 +2,10 @@
     <TopTitle title="加入方法" />
     <SectionComponent>
         <h2>今年度の加入方法について</h2>
+        <p>※ 今年度の新歓は、2025年5月31日（土）に終了いたしました。</p>
+        <p>※ これ以降の加入申請は個別対応となります。お問い合わせからご連絡ください。</p>
         <a class="newcomers-event-button" href="/newcomers/2025">2025年度の新歓ページ</a>
         <p>今年度の加入方法・新歓に関する情報は上記ページからご確認ください！</p>
-        <p>※ 2025年度の新歓に関する情報は、2025年4月1日に公開します。</p>
     </SectionComponent>
 
     <SectionComponent>
