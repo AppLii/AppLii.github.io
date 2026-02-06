@@ -17,11 +17,11 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # Node.js環境を用意してビルドを行う
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "18"
 
@@ -42,7 +42,6 @@ jobs:
           mv ./dist/* ./docs/
           cp -f ./seo-settings/sitemap.xml ./docs/sitemap.xml
           cp -f ./seo-settings/robots.txt ./docs/robots.txt
-          cp -f ./seo-settings/CNAME ./docs/CNAME
           cp -f ./seo-settings/applii_ogp.png ./docs/applii_ogp.png
 
       # アンダースコアから始まるディレクトリが無視される不具合によってアイコンが404NotFoundになる

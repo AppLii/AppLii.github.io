@@ -78,7 +78,7 @@
                 </div>
                 <div>「どうこむ」<br />和大の食堂混雑度アプリ</div>
             </a>
-            <a href="https://applii-wu.net/find-free-classroom/" class="box-a" target="_blank">
+            <a href="https://applii.github.io/find-free-classroom/" class="box-a" target="_blank">
                 <div>
                     <CalendarMonth size="60px" />
                 </div>
