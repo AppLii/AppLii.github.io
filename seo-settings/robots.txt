@@ -3,4 +3,4 @@ Disallow: /404
 Disallow: /theme-color
 Disallow: /template-page
 
-Sitemap: https://applii-wu.net/sitemap.xml
+Sitemap: https://applii.github.io/sitemap.xml

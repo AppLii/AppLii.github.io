@@ -50,7 +50,7 @@ useHead({
     // 標準のOGP設定
     { property: "og:title", content: "ホームページ｜AppLii" },
     { property: "og:type", content: "website" },
-    { property: "og:url", content: "https://applii-wu.net/" },
+    { property: "og:url", content: "https://applii.github.io/" },
     { property: "og:image", content: "https://raw.githubusercontent.com/AppLii/AppLii.github.io/release/docs/applii_ogp.png" },
     { property: "og:description", content: "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。" },
     { property: "og:site_name", content: "ホームページ｜AppLii" },
@@ -93,7 +93,7 @@ const baseData = ref({
   "@type": "Organization",
   "name": "ITものづくりプロジェクトAppLii",
   "description": "和歌山大学のクリエ「ITものづくりプロジェクトAppLii」ホームページ。プログラミングに関連した活動を行っています。活動状況やプロダクトに関する情報を公開しています。",
-  "url": "https://applii-wu.net/",
+  "url": "https://applii.github.io/",
   "foundingDate": "2023",
   "memberOf": {
     "@type": "CollegeOrUniversity",
@@ -124,7 +124,7 @@ const breadcrumbList = computed(() => {
       "@type": "ListItem",
       "position": index + 1,
       "name": segment.charAt(0).toUpperCase() + segment.slice(1),
-      "item": `https://applii-wu.net${currentPath}`
+      "item": `https://applii.github.io${currentPath}`
     }
   })
 })
@@ -139,7 +139,7 @@ const structuredData = computed(() => [
           "@type": "ListItem",
           "position": 1,
           "name": "ホーム",
-          "item": "https://applii-wu.net/"
+          "item": "https://applii.github.io/"
         },
         ...breadcrumbList.value
       ]
@@ -153,27 +153,27 @@ const structuredData = computed(() => [
       {
         "@type": "SiteNavigationElement",
         "name": "ホーム",
-        "url": "https://applii-wu.net/"
+        "url": "https://applii.github.io/"
       },
       {
         "@type": "SiteNavigationElement",
         "name": "加入方法",
-        "url": "https://applii-wu.net/newcomers/"
+        "url": "https://applii.github.io/newcomers/"
       },
       {
         "@type": "SiteNavigationElement",
         "name": "私たちについて",
-        "url": "https://applii-wu.net/about-us/"
+        "url": "https://applii.github.io/about-us/"
       },
       {
         "@type": "SiteNavigationElement",
         "name": "開発環境について",
-        "url": "https://applii-wu.net/about-dev/"
+        "url": "https://applii.github.io/about-dev/"
       },
       {
         "@type": "SiteNavigationElement",
         "name": "お問い合わせ",
-        "url": "https://applii-wu.net/contact/"
+        "url": "https://applii.github.io/contact/"
       }
     ]
   },
@@ -181,10 +181,10 @@ const structuredData = computed(() => [
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "ITものづくりプロジェクトAppLii",
-    "url": "https://applii-wu.net/",
+    "url": "https://applii.github.io/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://applii-wu.net/search?q={search_term_string}",
+      "target": "https://applii.github.io/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   },
