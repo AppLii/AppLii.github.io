@@ -12,6 +12,6 @@ export default {
 }
 /*
     もともと「pages」というリポジトリでコードが管理されていました。
-    そのため、URLはすべて「applii-wu.net/pages/{{path}}」でした。その名残でURLがここにアクセスされたら、リダイレクトするようにしています。
+    そのため、URLはすべて「applii.github.io/pages/{{path}}」でした。その名残でURLがここにアクセスされたら、リダイレクトするようにしています。
 */
 </script>
