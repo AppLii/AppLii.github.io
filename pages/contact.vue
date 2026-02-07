@@ -23,7 +23,7 @@
                     <td><a target="_blank" href="https://github.com/AppLii">@AppLii</a></td>
                 </tr>
                 <tr>
-                    <th>X（Twitter）</th>
+                    <th>X（旧Twitter）</th>
                     <td><a target="_blank" href="https://twitter.com/applii_crea">@applii_crea</a></td>
                 </tr>
                 <tr>
