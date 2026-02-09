@@ -4,7 +4,7 @@
     </div>
     <div class="information-icon">
         <div class="icon-body">
-            <a href="/newcomers/2026">
+            <a href="/newcomers">
                 <span style="font-size: 1.2rem;">新歓に関する情報は</span>
                 <span style="font-size: 1.5rem;">こちらから！</span></a>
         </div>
