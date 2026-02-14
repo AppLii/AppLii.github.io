@@ -30,7 +30,7 @@
           <h1>各種リンク</h1>
           <ul>
             <li><a target="_blank" href="https://github.com/AppLii">AppLii｜GitHubリポジトリ</a></li>
-            <li><a target="_blank" href="https://twitter.com/applii_crea">AppLii｜Twitter（X）アカウント</a></li>
+            <li><a target="_blank" href="https://twitter.com/applii_crea">AppLii｜X（旧Twitter）アカウント</a></li>
             <li><a target="_blank" href="https://www.instagram.com/applii.crea">AppLii｜Instagramアカウント</a> </li>
             <li><a target="_blank" href="https://www.wakayama-u.ac.jp/">和歌山大学｜ホームページ</a></li>
             <li><a target="_blank" href="https://www.wakayama-u.ac.jp/crea/index.html">和歌山大学｜学生自主創造支援部門（クリエ）</a></li>
