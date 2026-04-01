@@ -11,14 +11,6 @@
                     <td>applii.crea[アットマーク]gmail.com</td>
                 </tr>
                 <tr>
-                    <th>お問い合わせフォーム</th>
-                    <td>
-                        <a target="_blank"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSdDexNyzuBwMtwq5UH6iJ0n_v1moZbEJoJR7BlCK1i5H0i9aQ/viewform?usp=sf_link">
-                            Google Forms</a>（下記のフォームと同じです）
-                    </td>
-                </tr>
-                <tr>
                     <th>GitHub</th>
                     <td><a target="_blank" href="https://github.com/AppLii">@AppLii</a></td>
                 </tr>
@@ -34,14 +26,6 @@
                 </tr>
             </tbody>
         </table>
-    </SectionComponent>
-
-    <SectionComponent>
-        <h2>お問い合わせフォーム</h2>
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdDexNyzuBwMtwq5UH6iJ0n_v1moZbEJoJR7BlCK1i5H0i9aQ/viewform?embedded=true"
-            width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…
-        </iframe>
     </SectionComponent>
 
     <SectionComponent>
