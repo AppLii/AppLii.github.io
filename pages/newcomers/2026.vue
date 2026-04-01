@@ -1,13 +1,13 @@
 <template>
   <TopTitle title="加入方法" />
   <SectionComponent>
-    <h1>2025年度の新歓ページ</h1>
-    <p>新入生歓迎期間は2025年5月31日(土)までとさせていただきます。これ以降の加入申請は、個別対応となります。</p>
+    <h1>2026年度の新歓ページ</h1>
+    <p>新入生歓迎期間は2026年5月31日(土)までとさせていただきます。これ以降の加入申請は、個別対応となります。</p>
   </SectionComponent>
 
   <SectionComponent style="background-color: rgb(255, 255, 228);">
     <h2>Discordサーバーへの入り方</h2>
-    <p>2025年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。以下のリンクから入ることができます。 </p>
+    <p>2026年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。以下のリンクから入ることができます。 </p>
     <p></p>
     <p> <a class="discord-link" href="https://discord.gg/dCK2XFecSw" target="_blank">AppLii新歓Discordサーバーに参加する</a>
     </p>
@@ -117,11 +117,11 @@ export default {
 
 <script setup>
 useHead({
-  title: '2025年度の新歓ページ｜AppLii',
+  title: '2026年度の新歓ページ｜AppLii',
   meta: [
-    { name: 'description', content: '2025年度の新歓についてご紹介します。' },
-    { property: 'og:title', content: '2025年度の新歓ページ｜AppLii' },
-    { property: 'og:description', content: '2025年度の新歓についてご紹介します。' },
+    { name: 'description', content: '2026年度の新歓についてご紹介します。' },
+    { property: 'og:title', content: '2026年度の新歓ページ｜AppLii' },
+    { property: 'og:description', content: '2026年度の新歓についてご紹介します。' },
   ],
 })
 </script>
