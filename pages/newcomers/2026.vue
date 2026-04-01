@@ -9,7 +9,7 @@
     <h2>Discordサーバーへの入り方</h2>
     <p>2026年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。以下のリンクから入ることができます。 </p>
     <p></p>
-    <p> <a class="discord-link" href="https://discord.gg/dCK2XFecSw" target="_blank">AppLii新歓Discordサーバーに参加する</a>
+    <p> <a class="discord-link" href="https://discord.gg/rWE3NKeS" target="_blank">AppLii新歓Discordサーバーに参加する</a>
     </p>
     <ul>
       <li>新歓情報をいち早く知ることができる！</li>
@@ -53,9 +53,9 @@
       (ABC)」などに参加しています。</p>
     <p>より良いソフトウェアを開発するには、幅広い知識と技術が必要です。AppLiiでは、それぞれのメンバーが主体性を持って学習に取り組むことを大切にしています。したがって、自主学習も活動のひとつになります。</p>
     <h2>これまでの実績と開発</h2>
-    <p>現在は「大学食堂混雑アプリ どうこむ」の開発・運用を行っています。このアプリについては、<a href="/about-cafe-app">こちらのページ</a> をご覧ください！</p>
+    <p>去年まで「大学食堂混雑アプリ どうこむ」の開発・運用を行っていました。このアプリについては、<a href="/about-cafe-app">こちらのページ</a> をご覧ください！</p>
     <p>このアプリは<a
-        href="https://www.wakayama-u.ac.jp/crea/crea-project/project/mission.html">クリエミッションとして採択され、予算を割り当てられて</a>開発を進めています。
+        href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2023_mission.html">クリエミッションとして採択され、予算を割り当てられて</a>、今の4回生が1回生の時に開発しました。<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2024_mission.html">その翌年もクリエミッションとして採択され</a>、引き続きアップデートを行いました。2025年には、学外の銭湯にどうこむを設置し運用することもできました。
     </p>
   </SectionComponent>
 
