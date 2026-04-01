@@ -2,9 +2,7 @@
     <TopTitle title="加入方法" />
     <SectionComponent>
         <h2>今年度の加入方法について</h2>
-        <p>※ 2026年度の新歓情報は、2026年4月頃に公開予定です。</p>
-        <p>※ 現在は準備中です。しばらくお待ちください。</p>
-        <a class="newcomers-event-button" href="/newcomers/2026">2026年度の新歓ページ（準備中）</a>
+        <a class="newcomers-event-button" href="/newcomers/2026">2026年度の新歓ページ</a>
         <p>今年度の加入方法・新歓に関する情報は上記ページからご確認ください！</p>
     </SectionComponent>
 
