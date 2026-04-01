@@ -52,17 +52,20 @@
     <p>また、一部のメンバーは技術習得のために競技プログラミングにも参加しています。競技プログラミングとは、限られた時間内で特定の問題を解くコーディング競技です。毎週開催される「AtCoder Beginner Contest
       (ABC)」などに参加しています。</p>
     <p>より良いソフトウェアを開発するには、幅広い知識と技術が必要です。AppLiiでは、それぞれのメンバーが主体性を持って学習に取り組むことを大切にしています。したがって、自主学習も活動のひとつになります。</p>
+  </SectionComponent>
+
+  <SectionComponent>
     <h2>これまでの実績と開発</h2>
     <ul>
       <li>「大学食堂混雑アプリ どうこむ」</li>
       <li>ミーティングルーム予約システム</li>
     </ul>
-    <h3>「大学食堂混雑アプリ どうこむ」</h3>
+    <h3 class="product-title">「大学食堂混雑アプリ どうこむ」</h3>
     <p>去年まで「大学食堂混雑アプリ どうこむ」の開発・運用を行っていました。このアプリについては、<a href="/about-cafe-app">こちらのページ</a> をご覧ください！</p>
     <p>このアプリは<a
         href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2023_mission.html">クリエミッション</a>として採択されて割り当てられた予算を使用し、今の4回生が1回生の時に開発しました。その翌年も<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2024_mission.html">クリエミッション</a>として機能の強化を行い、最近では学外の銭湯にどうこむを設置し運用することもできました。
     </p>
-    <h3>ミーティングルーム予約システム</h3>
+    <h3 class="product-title">ミーティングルーム予約システム</h3>
     <p>3回生7名で<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2025_mission.html">クリエミッション</a>として開発を進めて、この春にリリースしました。私達クリエの学生がプロジェクト活動に使用する会議室を、Webから予約できるアプリです。</p>
     <p>クリエの学生に加え、クリエの事務員の方々も使用するアプリなので、話し合いを重ねることで両者にとって使いやすいアプリを実現しました。</p>
   </SectionComponent>
@@ -154,5 +157,9 @@ useHead({
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(114, 137, 218, 0.3);
   }
+}
+
+.product-title {
+  font-size: 1.3rem;
 }
 </style>
