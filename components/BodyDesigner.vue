@@ -2,7 +2,7 @@
     <div class="body-designer">
         <slot></slot>
     </div>
-    <div class="information-icon">
+    <div v-if="shouldShowPopup" class="information-icon">
         <div class="icon-body">
             <a href="/newcomers">
                 <span style="font-size: 1.2rem;">新歓に関する情報は</span>
@@ -15,6 +15,13 @@
 export default {
     name: 'BodyDesigner',
 }
+</script>
+
+<script setup>
+const route = useRoute()
+const shouldShowPopup = computed(() => {
+    return !route.path.startsWith('/newcomers')
+})
 </script>
 
 <style lang="scss">
