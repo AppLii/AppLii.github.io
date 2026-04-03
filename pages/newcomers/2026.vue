@@ -63,11 +63,12 @@
     <h3 class="product-title">「大学食堂混雑アプリ どうこむ」</h3>
     <p>去年まで「大学食堂混雑アプリ どうこむ」の開発・運用を行っていました。このアプリについては、<a href="/about-cafe-app">こちらのページ</a> をご覧ください！</p>
     <p>このアプリは<a
-        href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2023_mission.html">クリエミッション</a>として採択されて割り当てられた予算を使用し、今の4回生が1回生の時に開発しました。その翌年も<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2024_mission.html">クリエミッション</a>として機能の強化を行い、最近では学外の銭湯にどうこむを設置し運用することもできました。
+        href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2023_mission.html">クリエミッション</a>として採択されて割り当てられた予算を使用し開発しました。その翌年も<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2024_mission.html">クリエミッション</a>として機能の強化を行い、最近では学外の銭湯にどうこむを設置し運用することもできました。
     </p>
     <h3 class="product-title">ミーティングルーム予約システム</h3>
-    <p>3回生7名で<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2025_mission.html">クリエミッション</a>として開発を進めて、この春にリリースしました。私達クリエの学生がプロジェクト活動に使用する会議室を、Webから予約できるアプリです。</p>
-    <p>クリエの学生に加え、クリエの事務員の方々も使用するアプリなので、話し合いを重ねることで両者にとって使いやすいアプリを実現しました。</p>
+    <p>この春にプレリリースした、私達クリエの学生がプロジェクト活動に使用する会議室を、Webから予約できるアプリです。</p>
+    <p>クリエの学生に加え、クリエの事務員の方々も使用するアプリなので、話し合いを重ねることで両者にとって使いやすいアプリを実現しました。クリエミッションとしても取り組んだので<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2025_mission.html">こちら</a>から探していただくと詳細をご覧いただけます。/p>
+    
   </SectionComponent>
 
   <SectionComponent>
