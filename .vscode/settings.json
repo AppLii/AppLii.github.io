@@ -1,0 +1,4 @@
+{
+  "git.branchProtection": ["main", "release"],
+  "git.branchProtectionPrompt": "alwaysPrompt"
+}
