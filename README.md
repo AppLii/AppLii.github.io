@@ -31,7 +31,7 @@ node -v
 ```sh
 git clone https://github.com/AppLii/AppLii.github.io
 cd AppLii.github.io
-npm install
+npm ci
 ```
 
 ### 3. ローカルでの開発方法（ホットリロードの使い方）
