@@ -9,7 +9,7 @@
     <h2>Discordサーバーへの入り方</h2>
     <p>2026年度の新入生歓迎会は対面開催を予定しています！<br>詳しい情報は、Discordにてお知らせします。以下のリンクから入ることができます。 </p>
     <p></p>
-    <p> <a class="discord-link" href="https://discord.gg/rWE3NKeS" target="_blank">AppLii新歓Discordサーバーに参加する</a>
+    <p> <a class="discord-link" href="https://discord.gg/YVmxhnkpzZ" target="_blank">AppLii新歓Discordサーバーに参加する</a>
     </p>
     <ul>
       <li>新歓情報をいち早く知ることができる！</li>
