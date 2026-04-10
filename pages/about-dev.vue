@@ -81,7 +81,6 @@
         </p>
 		    <p>
 				    <strong>ChatGPT-5.3-Codex / Jnnie / Gemini-CLI：</strong>
-            主にmeeting-roomで用いました。
 				コードの作成、技術選定、不具合の解消を効率化するために併用しています。タスクに応じて使い分けることで、実装速度と検証の精度を高めています。これらもまた、有料版の費用は個人負担となります。
         </p>
     </SectionComponent>
