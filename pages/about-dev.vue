@@ -42,13 +42,14 @@
 
     <SectionComponent>
         <h2>その他</h2>
-        <h3> クラウド・サービス </h3>
-        <p><strong>Microsoft Azure：</strong>クラウドサーバーとして利用しています。たくさんのサービスが提供されていますが、このプロジェクトではApp
+        <h3> サーバー環境 </h3>
+        <p><strong>Microsoft Azure：</strong>クラウドサーバーとして利用しています。このプロジェクトではApp
             ServiceやFunctions、Cosmos
-            DBなどを用いることが多いです。</p>
+            DBなどを用いるプロダクトがあります。</p>
         <p>クラウドサーバーには、Amazon Web Services（AWS）やGoogle Cloud
             Platform（GCP）などの類似サービスがありますが、大学生協に対応していること・学生特典が充実していることからMicrosoft
             Azureを選定しています。</p>
+		<p><strong>オンプレサーバー：</strong>大学に存在するオンプレサーバを利用しているプロダクトも存在します。</p>
 
         <h3> バージョン管理システム </h3>
         <p><strong>GitHub：</strong>開発したコードはすべてGitHubで管理しています。</p>
@@ -102,7 +103,7 @@ export default {
 
 <script setup>
 const usage = ref([{
-    'desc': 'Webフロントエンドやmeeting-roomの実装で利用しています。主に、画面の操作処理、APIとの連携、入力値の検証、表示状態の制御など、ユーザーが直接触れる機能を実現するために採用しています。',
+    'desc': 'Webフロントエンドの実装で利用しています。主に、画面の操作処理、APIとの連携、入力値の検証、表示状態の制御など、ユーザーが直接触れる機能を実現するために採用しています。',
     'length': '7,256',
     'name': 'JavaScript（.js）',
     'percentage': '22.8%'
@@ -114,7 +115,7 @@ const usage = ref([{
     'percentage': '19.8%'
 },
 {
-    'desc': 'Webフロントエンド（Webページの見える部分を作るとき）に利用しています。きめ細やかなデザインを行うためにHTMLやCSSなどを記述することから、全体に占める割合が多くなりがちです。',
+    'desc': 'Webフロントエンドに利用しています。きめ細やかなデザインを行うためにHTMLやCSSなどを記述することから、全体に占める割合が多くなりがちです。',
     'length': '4,611',
     'name': 'Vue.js（.vue）',
     'percentage': '14.5%'
@@ -126,7 +127,7 @@ const usage = ref([{
     'percentage': '11.8%'
 },
 {
-    'desc': 'meeting-roomの画面デザインやレイアウト調整に利用しています。',
+    'desc': 'Webフロントエンドの画面デザインやレイアウト調整等に利用しています。',
     'length': '3,608',
     'name': 'CSS（.css）',
     'percentage': '11.4%'
@@ -138,7 +139,7 @@ const usage = ref([{
     'percentage': '9.5%'
 },
 {
-    'desc': 'meeting-roomの画面構造の記述に利用しています。',
+    'desc': 'Webフロントエンドの画面構造の記述等に利用しています。',
     'length': '1,438',
     'name': 'HTML（.html）',
     'percentage': '4.5%'
@@ -150,7 +151,7 @@ const usage = ref([{
     'percentage': '3.0%'
 },
 {
-    'desc': 'meeting-roomのデータベース定義やクエリの記述に利用しています。',
+    'desc': 'サーバーサイドでのデータベース定義やクエリの記述等に利用しています。',
     'length': '373',
     'name': 'SQL（.sql）',
     'percentage': '1.2%'
