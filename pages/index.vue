@@ -84,7 +84,7 @@
                 </div>
                 <div>空き教室検索システム</div>
             </a>
-            <a href="/about-meeting-room-reservation-system" class="box-a" target="_blank">
+            <a href="/about-meeting-room-reservation-system" class="box-a">
                 <div>
                     <Information size="60px" />
                 </div>
