@@ -84,6 +84,12 @@
                 </div>
                 <div>空き教室検索システム</div>
             </a>
+            <a href="/about-meeting-room" class="box-a">
+                <div>
+                    <CalendarClock size="60px" />
+                </div>
+                <div>ミーティングルーム<br />予約システム</div>
+            </a>
         </div>
 
         <!--
@@ -107,6 +113,12 @@
                     </td>
                 </tr>
                 -->
+                <tr>
+                  <th>2026-04-17</th>
+                  <td>
+                    <a href="/about-dev">開発環境</a>のページを更新しました！
+                  </td>
+                </tr>
                 <tr>
                   <th>2026-04-02</th>
                   <td>
@@ -245,6 +257,7 @@ import EmailFast from "vue-material-design-icons/EmailFast.vue";
 import Information from "vue-material-design-icons/Information.vue";
 import Coffee from "vue-material-design-icons/Coffee.vue";
 import CalendarMonth from "vue-material-design-icons/CalendarMonth.vue";
+import CalendarClock from "vue-material-design-icons/CalendarClock.vue";
 
 export default {
     name: 'MainPage',
@@ -255,6 +268,7 @@ export default {
         Information,
         Coffee,
         CalendarMonth,
+        CalendarClock,
     },
     mounted() {
         const topMovie = document.getElementById('top-movie');
