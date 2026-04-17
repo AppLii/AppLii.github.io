@@ -1,4 +1,4 @@
-# CLAUDE.md
+# copilot-instructions.md
 
 ## プロジェクト概要
 
