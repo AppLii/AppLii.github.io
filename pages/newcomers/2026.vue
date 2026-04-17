@@ -17,7 +17,7 @@
       <li><strong>最初は見るだけでも大歓迎！</strong> 自己紹介や発言は必須ではありません！</li>
     </ul>
         <p>
-       <a href="https://www.instagram.com/applii.crea/" target="_blank">Instagram</a>や<a href="https://twitter.com/applii_crea" target="_blank">X</a>でも新歓の情報を配信しています。
+       新歓の情報は<a href="https://www.instagram.com/applii.crea/" target="_blank">Instagram</a>や<a href="https://twitter.com/applii_crea" target="_blank">X</a>でも配信しています。
     </p>
 
   </SectionComponent>
