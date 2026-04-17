@@ -68,7 +68,7 @@
     <h3 class="product-title">ミーティングルーム予約システム</h3>
     <p>この春にプレリリースした、私達クリエの学生がプロジェクト活動に使用する会議室を、Webから予約できるアプリです。</p>
     <p>クリエの学生に加え、クリエの事務員の方々も使用するアプリなので、話し合いを重ねることで両者にとって使いやすいアプリを実現しました。クリエミッションとしても取り組んだので<a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2025_mission.html">こちら</a>から探していただくと詳細をご覧いただけます。</p>
-    <p>アプリの紹介ページは、<a href="/about-meeting-room-reservation-system">こちら</a>をご覧ください（近日公開）。</p>
+    <p>アプリの紹介ページは、<a href="/pages/about-meeting-room">こちら</a>をご覧ください（近日公開）。</p>
     
   </SectionComponent>
 
