@@ -84,7 +84,7 @@
                 </div>
                 <div>空き教室検索システム</div>
             </a>
-            <a href="/pages/about-meeting-room" class="box-a">
+            <a href="/about-meeting-room" class="box-a">
                 <div>
                     <CalendarClock size="60px" />
                 </div>
