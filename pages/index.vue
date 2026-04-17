@@ -86,7 +86,7 @@
             </a>
             <a href="/pages/about-meeting-room" class="box-a">
                 <div>
-                    <Information size="60px" />
+                    <CalendarClock size="60px" />
                 </div>
                 <div>ミーティングルーム<br />予約システム</div>
             </a>
@@ -251,6 +251,7 @@ import EmailFast from "vue-material-design-icons/EmailFast.vue";
 import Information from "vue-material-design-icons/Information.vue";
 import Coffee from "vue-material-design-icons/Coffee.vue";
 import CalendarMonth from "vue-material-design-icons/CalendarMonth.vue";
+import CalendarClock from "vue-material-design-icons/CalendarClock.vue";
 
 export default {
     name: 'MainPage',
@@ -261,6 +262,7 @@ export default {
         Information,
         Coffee,
         CalendarMonth,
+        CalendarClock,
     },
     mounted() {
         const topMovie = document.getElementById('top-movie');
