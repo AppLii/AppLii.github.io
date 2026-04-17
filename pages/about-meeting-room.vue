@@ -2,8 +2,10 @@
   <TopTitle title="ミーティングルーム予約システムについて" />
 
   <SectionComponent>
-    <h2>説明ページを準備中です</h2>
-    <p>このページは現在「近日公開」です。内容は今後の更新で順次公開します。</p>
+    <h2>準備中。以下のサイトをご参照ください。</h2>
+    <p>このページは準備中です。</p>
+    <p>「ミーティングルーム予約システム」の詳細については以下のサイトにも掲載されていますので、ぜひご参照ください。</p>
+    <p><a href="https://www.wakayama-u.ac.jp/crea/crea-project/project/2025_mission.html">2025年度クリエプロジェクト・ミッション一覧</a>にアクセスして、一番下に詳細のPDFが掲載されています。</p>
   </SectionComponent>
 </template>
 
