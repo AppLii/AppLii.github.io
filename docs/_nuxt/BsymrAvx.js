@@ -1,0 +1,1 @@
+import{_ as o,c as t,b as n,o as r}from"./D3v_vlYy.js";const s={mounted(){window.location.href="/"}};function a(c,e,d,i,l,p){return r(),t("div",null,[...e[0]||(e[0]=[n("h1",null,"Redirecting...",-1)])])}const u=o(s,[["render",a]]);export{u as default};

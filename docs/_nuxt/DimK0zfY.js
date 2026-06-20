@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,b as n,i as c}from"./D3v_vlYy.js";const a={name:"SectionComponent"},r={class:"section"},i={class:"width-adjust"};function d(e,_,p,l,m,f){return s(),t("div",r,[n("div",i,[c(e.$slots,"default")])])}const $=o(a,[["render",d]]);export{$ as S};
