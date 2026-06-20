@@ -17,13 +17,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v6.0.3
 
       # Node.js環境を用意してビルドを行う
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "18"
+          node-version: "22"
 
       - name: Install nuxt
         run: npm install -g nuxt
