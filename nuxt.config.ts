@@ -8,7 +8,7 @@ export default {
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
     },
   },
-  modules: ["@nuxtjs/sitemap"],
+  modules: ["@nuxtjs/sitemap", "@nuxt/eslint"],
   sitemap: {
     hostname: "https://applii.github.io",
     path: "/sitemap.xml",
