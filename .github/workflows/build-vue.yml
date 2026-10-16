@@ -30,11 +30,9 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Install nuxt
-        run: npm install -g nuxt
-
+      # nuxt を含む依存は package-lock.json の版で入れる（グローバルに最新版を入れない）
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build project
         run: npm run generate
